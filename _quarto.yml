@@ -9,7 +9,7 @@ website:
   description: "Computational social scientist working on legal culture and cognition."
   open-graph:
     site-name: "Dmitrii Serebrennikov"
-  search: false
+  search: true
   navbar:
     title: "Dmitrii Serebrennikov"
     collapse-below: lg

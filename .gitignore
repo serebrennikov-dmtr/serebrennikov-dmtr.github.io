@@ -9,3 +9,7 @@
 # Internal master record — DOB, phone, diploma numbers, unresolved flags.
 # Source of truth for the site content; never publish it.
 /Serebrennikov_Master_CV.md
+/Serebrennikov_Master_CV_v2.md
+
+# Internal editorial handoff — not site content.
+/Website_Revision_Brief.md

@@ -5,7 +5,18 @@ toc: true
 toc-location: left
 ---
 
-Eight years in evidence-based policy and crime prevention, delivered through fifteen commissioned projects for Kazakhstani government bodies, an international development bank and two universities. I have edited roughly twenty policy papers at Kazakhstan Sociology Lab and MIND, and managed the second wave of the Russian Crime Victimization Survey.
+Fifteen commissioned research projects for Kazakhstani government bodies, an international development bank and two universities. I have edited roughly twenty policy papers at Kazakhstan Sociology Lab and MIND, and managed the second wave of the Russian Crime Victimization Survey.
+
+## Data & code
+
+**Russian Crime Victimization Survey (RCVS).** Three waves (2018, 2021, 2024), 42,572 pooled respondents, a 3,456-person longitudinal panel, and a pooled cross-sectional dataset released openly on SSRN. I managed wave 2 end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only *repeated* nationwide victimization survey in Russia.
+
+**researchdata.kz.** A data hub for social scientists working on Kazakhstan, launched June 2026 through Kazakhstan Sociology Lab. Two datasets are deposited under my authorship:
+
+- Serebrennikov, D. **Spatial Data on Socio-Economic Characteristics in Almaty.** researchdata.kz, 2026. — [researchdata.kz/data/218](https://researchdata.kz/data/218)
+- Serebrennikov, D., Kalkanbay, S. **Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026.** researchdata.kz, 2026. — [researchdata.kz/data/162](https://researchdata.kz/data/162)
+
+**Code.** Replication data and code for the *Russian Politics* article, "Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment" — [github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo](https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo).
 
 <style>
 .policy-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1em; margin: 1.5em 0; }
@@ -159,13 +170,9 @@ Advisory only, not an author of the concept itself.
 
 **Should the Weight of a Pure Narcotic Substance Be Equated with the Weight of the Mixture Containing It? Evidence from Four European Countries**
 
-<div class="card-role">Analyst · 2018</div>
+With V. Kudryavtsev and Yu. Kuzmina.
+
+<div class="card-role">Analyst · 2019</div>
 </div>
 
 :::
-
-## Data infrastructure
-
-**Russian Crime Victimization Survey (RCVS).** Three waves (2018, 2021, 2024), 42,572 pooled respondents, a 3,456-person longitudinal panel, and a pooled cross-sectional dataset released openly on SSRN. I managed wave 2 end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only *repeated* nationwide victimization survey in Russia.
-
-**researchdata.kz.** A data hub for social scientists working on Kazakhstan, which I co-organise alongside Kazakhstan Sociology Lab's other research infrastructure work.

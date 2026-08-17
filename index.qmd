@@ -19,7 +19,7 @@ format:
 
 **Positions**
 
-Research director[^title], [Kazakhstan Sociology Lab](https://kazsoclab.kz), Astana
+Research director, [Kazakhstan Sociology Lab](https://kazsoclab.kz), Astana
 
 Research fellow, Institute for the Rule of Law, European University at Saint Petersburg
 
@@ -41,8 +41,6 @@ Research fellow, Institute for the Rule of Law, European University at Saint Pet
 
 :::
 
-[^title]: Shared with Adil Rodionov, co-research director.
-
 ***`L`egitimacy research***, in most of its empirical forms, assumes a shared referent: that "the law," "the rule," "the right" mean roughly the same thing to everyone being asked whether it is legitimate. My work tests the alternative — that these terms are organised into distinct cultural schemas, unevenly distributed across a population, and that which schema a person holds predicts what they do (report to the police, file a complaint, comply, stay silent) at least as well as their attitudes do.
 
 Kazakhstan is a methodologically useful place to ask this. Russian- and Kazakh-speaking citizens live under one legal system; cohorts who came of age under different legal orders sit side by side. That gives the question empirical traction it wouldn't have in a more homogeneous setting.
@@ -53,11 +51,45 @@ Empirically, I work across NLP and embeddings, silicon sampling, survey design, 
 
 <p class="figure-caption">Illustrative, not data: the kind of unevenly distributed schema structure the research asks about.</p>
 
+### How this fits together
+
+My first publication, in 2020, was a review of Eugen Ehrlich on living law — the question behind it was where law exists outside the statute book. The several years of work that followed, on policing, surveillance and victimization, were not driven by an interest in crime as such: crime is where classification is dense, consequential and recorded, which makes it observable. That work produced a methodological objection. Research on legal legitimacy explains compliance through attitudes toward law while assuming the referent is the same for everyone asked; if "law" means different things to different people, measured variation in legitimacy conflates variation in attitude with variation in referent. The current programme follows from that: cognitive sociology supplies the theory of what differs — schemas, unevenly distributed — and computational methods supply the means to measure it.
+
+### Education
+
+**Professional Certificate Programme, Applied Data Science**, European University at Saint Petersburg with Yandex School of Data Analysis — Sep 2020 – Jul 2021
+Final project: an application recognising text in photographs of archival Jewish gravestones, built for historical research; project manager of the team.
+
+**M.A., Sociology**, European University at Saint Petersburg — Sep 2018 – Aug 2020
+Thesis: *"Street-Level Security: Managerial Logics of Safety and Urban Video Surveillance Systems in Small Cities and Megacities."* Qualitative study of camera monitoring centres, combined with an analysis of Moscow placement patterns using LASSO regularization and complementary log-log regression.
+
+**B.A., Russian History**, Novosibirsk State University — Sep 2013 – Aug 2017
+Capstone: *"The Political Activity of Regional Soviets of People's Deputies in Western Siberia, 1991–1993."*
+
+### Grants & awards
+
+**Research grant no. BR28713139**, Ministry of Science and Higher Education of the Republic of Kazakhstan — 2025–2027
+*"Computational Social Science: New Horizons in Methodology and Evidence-Based Policy."* Core team member.
+
+**Vladimir Potanin Scholarship** — 2019–2020
+Competitive national scholarship for master's students.
+
 ### Currently working on
 
 - **Schemas of law and order** — testing whether "law," "rule" and "right" function as separate cognitive schemas, using European Social Survey data and the text of citizens' complaints to government bodies.
 - **Prosody and the structure of talk about crime** — an automated pipeline (WhisperX, forced alignment, pyannote diarisation, instrumental prosody in Praat, LLM-assisted sequence coding) for conversation-analytic transcription of calls about crime.
 - **Open-ended questions in silicon sampling surveys** — with Daniil Lebedev and Sanzhar Kalkanbay, a factorial field experiment (Astana, N ≈ 1,000) testing whether open-ended items reduce the uniformity bias LLM-simulated respondents show on closed questions.
+
+### Selected media
+
+- **RBC**, Sep 2023 — Why Russia is building a unified biometric system
+- **If Being Precise** *(Esli byt' tochnym)*, Jul 2022 — Crime in Russia may have risen 40% over three years, and fell into the blind zone of criminal statistics
+- **If Being Precise**, Jul 2022 — Only 4% of crime victims in Russia receive any compensation for damages
+- **N + 1**, Sep 2021 — Predict, She Wrote: how far crime prediction systems have come, and why they are criticised
+- **Forbes**, Jun 2021 — Watcher's error: why smart cameras will not prevent high-profile crimes
+- **Vedomosti**, Extra Jus, Apr/May 2020 — Mass video surveillance: technological and bureaucratic problems
+- **Vedomosti**, Extra Jus, Apr 2019 — Why the police are not glad of citizen assistants and inspectors *(with K. Titaev)*
+- **Open Police**, Nov 2018 — How and why the state watches citizens in public space *(expert commentary)*
 
 ---
 
