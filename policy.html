@@ -33,6 +33,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -44,6 +48,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-92747dfcfc16a6337669823afbf88a59.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -76,6 +92,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Dmitrii Serebrennikov</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -122,11 +139,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2025</a></li>
+  <li><a href="#data-code" id="toc-data-code" class="nav-link active" data-scroll-target="#data-code">Data &amp; code</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2025</a></li>
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2024</a></li>
   <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2021–2023</a></li>
   <li><a href="#earlier" id="toc-earlier" class="nav-link" data-scroll-target="#earlier">Earlier</a></li>
-  <li><a href="#data-infrastructure" id="toc-data-infrastructure" class="nav-link" data-scroll-target="#data-infrastructure">Data infrastructure</a></li>
   </ul>
 </nav>
 </nav>
@@ -161,13 +178,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Eight years in evidence-based policy and crime prevention, delivered through fifteen commissioned projects for Kazakhstani government bodies, an international development bank and two universities. I have edited roughly twenty policy papers at Kazakhstan Sociology Lab and MIND, and managed the second wave of the Russian Crime Victimization Survey.</p>
+<p>Fifteen commissioned research projects for Kazakhstani government bodies, an international development bank and two universities. I have edited roughly twenty policy papers at Kazakhstan Sociology Lab and MIND, and managed the second wave of the Russian Crime Victimization Survey.</p>
+<section id="data-code" class="level2">
+<h2 class="anchored" data-anchor-id="data-code">Data &amp; code</h2>
+<p><strong>Russian Crime Victimization Survey (RCVS).</strong> Three waves (2018, 2021, 2024), 42,572 pooled respondents, a 3,456-person longitudinal panel, and a pooled cross-sectional dataset released openly on SSRN. I managed wave 2 end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only <em>repeated</em> nationwide victimization survey in Russia.</p>
+<p><strong>researchdata.kz.</strong> A data hub for social scientists working on Kazakhstan, launched June 2026 through Kazakhstan Sociology Lab. Two datasets are deposited under my authorship:</p>
+<ul>
+<li>Serebrennikov, D. <strong>Spatial Data on Socio-Economic Characteristics in Almaty.</strong> researchdata.kz, 2026. — <a href="https://researchdata.kz/data/218">researchdata.kz/data/218</a></li>
+<li>Serebrennikov, D., Kalkanbay, S. <strong>Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026.</strong> researchdata.kz, 2026. — <a href="https://researchdata.kz/data/162">researchdata.kz/data/162</a></li>
+</ul>
+<p><strong>Code.</strong> Replication data and code for the <em>Russian Politics</em> article, “Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment” — <a href="https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo">github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo</a>.</p>
 <style>
 .policy-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1em; margin: 1.5em 0; }
 .policy-grid .card { padding: 1em 1.2em; }
 .policy-grid .card .card-role { font-size: 0.85em; opacity: 0.75; margin-top: 0.3em; }
 .policy-grid .card .card-client { font-family: var(--bs-font-sans-serif, sans-serif); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; }
 </style>
+</section>
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section">2025</h2>
 <div class="policy-grid">
@@ -320,16 +347,12 @@ Methodologist and analyst · 2021
 Institute for the Rule of Law, EUSP
 </div>
 <p><strong>Should the Weight of a Pure Narcotic Substance Be Equated with the Weight of the Mixture Containing It? Evidence from Four European Countries</strong></p>
+<p>With V. Kudryavtsev and Yu. Kuzmina.</p>
 <div class="card-role">
-Analyst · 2018
+Analyst · 2019
 </div>
 </div>
 </div>
-</section>
-<section id="data-infrastructure" class="level2">
-<h2 class="anchored" data-anchor-id="data-infrastructure">Data infrastructure</h2>
-<p><strong>Russian Crime Victimization Survey (RCVS).</strong> Three waves (2018, 2021, 2024), 42,572 pooled respondents, a 3,456-person longitudinal panel, and a pooled cross-sectional dataset released openly on SSRN. I managed wave 2 end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only <em>repeated</em> nationwide victimization survey in Russia.</p>
-<p><strong>researchdata.kz.</strong> A data hub for social scientists working on Kazakhstan, which I co-organise alongside Kazakhstan Sociology Lab’s other research infrastructure work.</p>
 
 
 </section>
