@@ -1,0 +1,64 @@
+---
+title: "Dmitrii Serebrennikov"
+toc: false
+format:
+  html:
+    grid:
+      body-width: 800px
+      margin-width: 250px
+      sidebar-width: 250px
+---
+
+::: {.content-block}
+
+*Computational social scientist · legal culture and cognition · Kazakhstan Sociology Lab*
+
+:::
+
+::: {.column-margin}
+
+**Positions**
+
+Research director[^title], [Kazakhstan Sociology Lab](https://kazsoclab.kz), Astana
+
+Research fellow, Institute for the Rule of Law, European University at Saint Petersburg
+
+**Based in** Astana, Kazakhstan
+
+**Contact**
+
+[d_serebrennikov@kazsoclab.kz](mailto:d_serebrennikov@kazsoclab.kz)
+
+[ORCID 0000-0002-2574-3842](https://orcid.org/0000-0002-2574-3842)
+
+[Google Scholar](https://scholar.google.ru/citations?user=7AMjvF8AAAAJ)
+
+[GitHub](https://github.com/serebrennikov-dmtr)
+
+[LinkedIn](https://www.linkedin.com/in/dmitrii-serebrennikov)
+
+[ResearchGate](https://www.researchgate.net/profile/Dmitrii-Serebrennikov-3)
+
+:::
+
+[^title]: Shared with Adil Rodionov, co-research director.
+
+***`L`egitimacy research***, in most of its empirical forms, assumes a shared referent: that "the law," "the rule," "the right" mean roughly the same thing to everyone being asked whether it is legitimate. My work tests the alternative — that these terms are organised into distinct cultural schemas, unevenly distributed across a population, and that which schema a person holds predicts what they do (report to the police, file a complaint, comply, stay silent) at least as well as their attitudes do.
+
+Kazakhstan is a methodologically useful place to ask this. Russian- and Kazakh-speaking citizens live under one legal system; cohorts who came of age under different legal orders sit side by side. That gives the question empirical traction it wouldn't have in a more homogeneous setting.
+
+Empirically, I work across NLP and embeddings, silicon sampling, survey design, spatial statistics and GIS, and explainable machine learning — in R, Python, SQL and QGIS — grounded in more than a hundred in-depth interviews.
+
+![](assets/figures/schema-network.svg){width="100%" fig-alt="Schematic diagram of three overlapping cultural schema clusters, labelled law, rule and right, with unevenly distributed nodes representing individuals."}
+
+<p class="figure-caption">Illustrative, not data: the kind of unevenly distributed schema structure the research asks about.</p>
+
+### Currently working on
+
+- **Schemas of law and order** — testing whether "law," "rule" and "right" function as separate cognitive schemas, using European Social Survey data and the text of citizens' complaints to government bodies.
+- **Prosody and the structure of talk about crime** — an automated pipeline (WhisperX, forced alignment, pyannote diarisation, instrumental prosody in Praat, LLM-assisted sequence coding) for conversation-analytic transcription of calls about crime.
+- **Open-ended questions in silicon sampling surveys** — with Daniil Lebedev and Sanzhar Kalkanbay, a factorial field experiment (Astana, N ≈ 1,000) testing whether open-ended items reduce the uniformity bias LLM-simulated respondents show on closed questions.
+
+---
+
+I am open to collaborations, fellowships and PhD positions.

@@ -1,0 +1,56 @@
+---
+title: "Publications"
+description: "Peer-reviewed articles, preprints and datasets, and selected reports."
+toc: true
+toc-location: left
+---
+
+My published work runs along three lines: legal culture and cognition; surveillance and security infrastructures; and the measurement of crime and victimization. The two flagship pieces are a near-repeat victimization study in Almaty (*Journal of Criminal Justice*) and a comparative study of CCTV placement logics across four cities (*Journal of Computational Social Science*) — both drawing on the same underlying interest in how institutions classify space, risk and people.
+
+![](assets/figures/schema-network.svg){width="70%" fig-alt="Schematic diagram of three overlapping cultural schema clusters, labelled law, rule and right, with unevenly distributed nodes representing individuals."}
+
+## Peer-reviewed articles
+
+**Serebrennikov, D.**, Minaeva, E., Ross, E. (forthcoming 2026). Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment. *Russian Politics*. Brill. `Scopus Q1`
+
+**Serebrennikov, D.**, Varshaver, E. (in press). Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanation. *Sociology of Power*. *(in Russian)*
+
+**Serebrennikov, D.**, Kalkanbay, S. (2026). What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan. *Journal of Criminal Justice*, 102, 102551. `Scopus Q1` — [doi.org/10.1016/j.jcrimjus.2025.102551](https://doi.org/10.1016/j.jcrimjus.2025.102551)
+
+**Serebrennikov, D.**, Skougarevskiy, D. (2024). A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement. *Journal of Computational Social Science*. — [doi.org/10.1007/s42001-024-00323-1](https://doi.org/10.1007/s42001-024-00323-1)
+
+**Serebrennikov, D.** (2023). From Call to Emergency Card: Seeking "112" Operator Discretion. *Forum for Anthropology and Culture*, 59, 130–152. *(in Russian)* — [doi.org/10.31250/1815-8870-2023-19-59-130-152](https://doi.org/10.31250/1815-8870-2023-19-59-130-152)
+
+**Serebrennikov, D.** (2023). Gaze Ex Machina: A Brief History of Police CCTV Surveillance in Russia and Western Countries. *Urban Studies and Practices*, 8(3), 101–112. *(in Russian)* — [doi.org/10.17323/usp832023101-112](https://doi.org/10.17323/usp832023101-112)
+
+**Serebrennikov, D.** (2023). Infrastructure as a Camera Obscura of Social Classifications: Urban Video Surveillance Systems in Small Cities. *Monitoring of Public Opinion*, 3. *(in Russian)* — [doi.org/10.14515/monitoring.2023.3.2325](https://doi.org/10.14515/monitoring.2023.3.2325)
+
+Verkeev, A., **Serebrennikov, D.** (2023). Victims of Their Own Fear: Perceived Safety and Crime Victim Experience in Russia. *Russian Sociological Review*, 22(2), 179–206. *(in Russian)* — [doi.org/10.17323/1728-192x-2023-2-179-206](https://doi.org/10.17323/1728-192x-2023-2-179-206)
+
+**Serebrennikov, D.**, Khodjaeva, E., Shepeleva, O. (2023). "Street-Level Algorithm": Two Styles of Automated Law Enforcement in the Moscow "Social Monitoring" Application. *The Journal of Social Policy Studies*, 21(1), 7–24. *(in Russian)* — [doi.org/10.17323/727-0634-2023-21-1-7-24](https://doi.org/10.17323/727-0634-2023-21-1-7-24)
+
+Muravyev, A., Yuldashev, O., **Serebrennikov, D.** (2021). Surveillance Cameras in Cities: Security and Territory. *Neprikosnovenny Zapas*, 6(140), 26–41. *(in Russian)*
+
+**Serebrennikov, D.**, Kuzmina, Yu. (2021). Field Experiments and the Rubin Causal Model: A Review of Approaches and Current Research. *Journal of Economic Sociology*, 22(4), 117–139. *(in Russian)* — [doi.org/10.17323/1726-3247-2021-4-117-139](https://doi.org/10.17323/1726-3247-2021-4-117-139)
+
+**Serebrennikov, D.** (2020). [Review] Ehrlich, E., Fundamental Principles of the Sociology of Law. *Sotsiologicheskiy Zhurnal*, 26(1), 183–189. *(in Russian)* — [doi.org/10.19181/socjour.2020.26.1.7059](https://doi.org/10.19181/socjour.2020.26.1.7059)
+
+## Preprints and datasets
+
+Kuchakov, R., **Serebrennikov, D.**, Bobrikov, D., Knorre, A., Skougarevskiy, D. (2026). Russian Crime Victimization Survey: Pooled Cross-Sections and a Longitudinal Panel, 2018–2024. *SSRN*. — [dx.doi.org/10.2139/ssrn.6418058](https://dx.doi.org/10.2139/ssrn.6418058)
+
+: The only repeated nationwide victimization survey in Russia, now released as an open dataset: 42,572 pooled respondents across three waves (2018 / 2021 / 2024) plus a 3,456-person longitudinal panel.
+
+## Selected reports
+
+**Serebrennikov, D.**, Didikin, A., Bektibaeva, O. (2025). Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations. *(in Russian)*
+
+**Serebrennikov, D.**, Kusmanova, A. (2024). Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty. MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab. *(in Russian)* — [report](https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html)
+
+**Serebrennikov, D.**, Bulatov, B. (2024). "The Criminal Always Returns to the Scene": Testing Near-Repeat Victimization Theory in Astana and Almaty. MIND, Maqsut Narikbayev University. *(in Russian)* — [report](https://mnu.kz/mind_reports/Serebrennikov_Bulatov_NearRep.html)
+
+Nurgalin, A., **Serebrennikov, D.** (2025). Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan. MIND, Maqsut Narikbayev University. *(in Russian)* — [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)
+
+**Serebrennikov, D.**, Titaev, K. (2022). Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021). Institute for the Rule of Law, European University at Saint Petersburg. *(in Russian)*
+
+More commissioned research, not listed here as standalone publications, appears on the [Policy & Data](policy.qmd) page.

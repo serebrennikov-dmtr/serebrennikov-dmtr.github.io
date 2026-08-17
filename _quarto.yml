@@ -1,0 +1,54 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+
+website:
+  title: "Dmitrii Serebrennikov"
+  site-url: https://serebrennikov-dmtr.github.io
+  description: "Computational social scientist working on legal culture and cognition."
+  open-graph:
+    site-name: "Dmitrii Serebrennikov"
+  search: false
+  navbar:
+    title: "Dmitrii Serebrennikov"
+    collapse-below: lg
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Policy & Data"
+        href: policy.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Talks & Events"
+        href: talks.qmd
+    right:
+      - text: "CV"
+        href: assets/Serebrennikov_CV.pdf
+  page-navigation: true
+  back-to-top-navigation: false
+  page-footer:
+    left: |
+      © 2026, built with <a href="https://quarto.org" target="_blank">Quarto</a> and the <a href="https://mdwm.org/quarto-pressmark/" target="_blank">Pressmark</a> theme
+    right:
+      - text: "GitHub"
+        href: "https://github.com/serebrennikov-dmtr"
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0002-2574-3842"
+      - text: "Scholar"
+        href: "https://scholar.google.ru/citations?user=7AMjvF8AAAAJ"
+
+format:
+  html:
+    theme: pressmark.scss
+    grid:
+      body-width: 900px
+      margin-width: 260px
+      sidebar-width: 260px
+    toc: true
+    toc-location: left
+    html-math-method: katex
+    link-external-icon: true
+    link-external-newwindow: true

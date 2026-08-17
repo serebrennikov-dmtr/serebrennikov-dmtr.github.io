@@ -1,0 +1,41 @@
+---
+title: "Teaching"
+description: "Courses of my own design, teaching in other people's programmes, and short workshops."
+toc: true
+toc-location: left
+---
+
+## School of Sociologists
+
+I direct and designed the curriculum for **School of Sociologists**, an eight-month advanced programme in computational social science run by Kazakhstan Sociology Lab. It delivers roughly the substance of a one-year MA in data analysis to social researchers across Kazakhstan and Central Asia who arrive with no programming background. Four cohorts have run since 2023, graduating around a hundred researchers.
+
+The programme is blended online and offline, structured across four modules from February to October: an opening session, three teaching modules, project presentations in June and July, and final defences in October. The curriculum spans sociological theory, research design, R, statistics, data mining and visualisation, NLP, social network analysis, spatial analysis, qualitative methods, causal inference, survey methodology and media analytics.
+
+## Courses of my own design
+
+- **Machine Learning for Social Science** — MA Data Analytics for Politics and Society, HSE University Saint Petersburg campus (Feb–May 2023)
+- **Contemporary Sociological Theory** — School of Sociologists, Kazakhstan Sociology Lab (2023–2026)
+- **Quantitative Sociology of Culture** — School of Sociologists, KSL
+- **Research Seminar** — School of Sociologists, KSL
+- **Data Analysis and Exploratory Analysis in R** — School of Sociologists, KSL
+- **Data Mining** — School of Sociologists, KSL
+- **Web Scraping & Parsing** — School of Sociologists, KSL
+- **Python for R Users** — School of Sociologists, KSL
+- **Introduction to Git** — School of Sociologists, KSL
+
+## Teaching in other people's programmes
+
+| Course | Programme | Period |
+|---|---|---|
+| Exploratory Data Analysis with R | Bioinformatics Institute, Saint Petersburg | Sep 2021 – Oct 2024 |
+| Introduction to Sociological Theory | MA Empirical Legal Studies, EUSP | Sep 2022 – Nov 2023 |
+| Introduction to Data Analysis in R + Data Visualization | MA Data Science / Applied Data Analysis, EUSP × Yandex School of Data Analysis | Sep 2021 – Jun 2024 |
+| Research Methodology and Sociology of Law *(guest lectures)* | Maqsut Narikbayev University | Sep 2024 – Dec 2025 |
+
+## Workshops and short courses
+
+| Workshop | Host | Date |
+|---|---|---|
+| Data Without Data? Using Large Language Models to Advance Social Research in Central Asia | Nazarbayev University × Central Eurasian Studies Society | June 2026 |
+| Contemporary Survey Research and Its Analysis *(3 days)* | Public Opinion Research Centre, Atyrau city administration | 2023 |
+| Working with Data and Graphics for Police Analytics *(1 day)* | Makan Yesbulatov Almaty Academy of the MVD | May 2023 |

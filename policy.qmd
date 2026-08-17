@@ -1,0 +1,171 @@
+---
+title: "Policy & Data"
+description: "Commissioned research for government bodies, international organisations and universities, and the survey infrastructure behind it."
+toc: true
+toc-location: left
+---
+
+Eight years in evidence-based policy and crime prevention, delivered through fifteen commissioned projects for Kazakhstani government bodies, an international development bank and two universities. I have edited roughly twenty policy papers at Kazakhstan Sociology Lab and MIND, and managed the second wave of the Russian Crime Victimization Survey.
+
+<style>
+.policy-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1em; margin: 1.5em 0; }
+.policy-grid .card { padding: 1em 1.2em; }
+.policy-grid .card .card-role { font-size: 0.85em; opacity: 0.75; margin-top: 0.3em; }
+.policy-grid .card .card-client { font-family: var(--bs-font-sans-serif, sans-serif); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; }
+</style>
+
+## 2025
+
+::: {.policy-grid}
+
+<div class="card">
+<div class="card-client">Eurasian Development Bank</div>
+
+**AI for the Analysis of Citizens' Appeals (eOtinish)**
+
+Embedding-based topic similarity for a national appeals system; delivered as a dashboard.
+
+<div class="card-role">Research team lead · 2025–2026</div>
+</div>
+
+<div class="card">
+<div class="card-client">Institute for the Rule of Law, EUSP</div>
+
+**Dynamics of Criminal Victimization in Russia, 2018–2024**
+
+<div class="card-role">Methodologist and analyst · 2025</div>
+</div>
+
+<div class="card">
+<div class="card-client">Senate of the Parliament of Kazakhstan, via MNU</div>
+
+**Readability of the Legal Acts of Kazakhstan**
+
+<div class="card-role">Research team lead · 2025</div>
+</div>
+
+<div class="card">
+<div class="card-client">Institute for the Rule of Law, EUSP</div>
+
+**Readability of Legal Acts: International Practice and Standard-Setting**
+
+<div class="card-role">Research team lead · 2025</div>
+</div>
+
+<div class="card">
+<div class="card-client">Committee on Legal Statistics, General Prosecutor's Office</div>
+
+**Fatal Road Traffic Accidents in Kazakhstan**
+
+<div class="card-role">Research team lead · 2025</div>
+</div>
+
+<div class="card">
+<div class="card-client">MNU</div>
+
+**Assessment of Open Data Availability in Kazakhstan**
+
+<div class="card-role">Research team lead · 2025 · [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)</div>
+</div>
+
+:::
+
+## 2024
+
+::: {.policy-grid}
+
+<div class="card">
+<div class="card-client">Committee on Legal Statistics, General Prosecutor's Office</div>
+
+**Identifying Risks in the Administrative Practice of State Bodies**
+
+<div class="card-role">External expert · 2024</div>
+</div>
+
+<div class="card">
+<div class="card-client">MNU</div>
+
+**Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium**
+
+<div class="card-role">Analyst · 2024</div>
+</div>
+
+<div class="card">
+<div class="card-client">MNU</div>
+
+**Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty**
+
+<div class="card-role">Research team lead · 2024 · [report](https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html)</div>
+</div>
+
+<div class="card">
+<div class="card-client">MNU, for the Committee on Legal Statistics</div>
+
+**Testing Near-Repeat Victimization Theory in Astana and Almaty**
+
+First application of the near-repeat design in Central Asia; underlies the *Journal of Criminal Justice* article.
+
+<div class="card-role">Research team lead · 2024 · [report](https://mnu.kz/mind_reports/Serebrennikov_Bulatov_NearRep.html)</div>
+</div>
+
+<div class="card">
+<div class="card-client">Committee on Legal Statistics, General Prosecutor's Office</div>
+
+**Domestic Violence in Kazakhstan: Administrative Offence Data, 2020–2024**
+
+<div class="card-role">Research team lead · 2024</div>
+</div>
+
+:::
+
+## 2021–2023
+
+::: {.policy-grid}
+
+<div class="card">
+<div class="card-client">Collective Action research centre, Brussels</div>
+
+**Effectiveness of Facial Recognition for Crime Clearance in Moscow**
+
+<div class="card-role">Research team lead · 2023</div>
+</div>
+
+<div class="card">
+<div class="card-client">Ministry of Internal Affairs of Kazakhstan</div>
+
+**Public Security in Partnership with Society, 2024–2028** *(policy concept)*
+
+Advisory only, not an author of the concept itself.
+
+<div class="card-role">External expert · 2022</div>
+</div>
+
+<div class="card">
+<div class="card-client">Institute for the Rule of Law, EUSP</div>
+
+**Assessment of Criminal Victimization in Russia, 2021**
+
+<div class="card-role">Methodologist and analyst · 2021</div>
+</div>
+
+:::
+
+## Earlier
+
+::: {.policy-grid}
+
+<div class="card">
+<div class="card-client">Institute for the Rule of Law, EUSP</div>
+
+**Should the Weight of a Pure Narcotic Substance Be Equated with the Weight of the Mixture Containing It? Evidence from Four European Countries**
+
+<div class="card-role">Analyst · 2018</div>
+</div>
+
+:::
+
+## Data infrastructure
+
+**Russian Crime Victimization Survey (RCVS).** Three waves (2018, 2021, 2024), 42,572 pooled respondents, a 3,456-person longitudinal panel, and a pooled cross-sectional dataset released openly on SSRN. I managed wave 2 end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only *repeated* nationwide victimization survey in Russia.
+
+**researchdata.kz.** A data hub for social scientists working on Kazakhstan, which I co-organise alongside Kazakhstan Sociology Lab's other research infrastructure work.

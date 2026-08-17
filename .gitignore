@@ -1,0 +1,11 @@
+/.quarto/
+/.vscode/
+/_site/
+*.code-workspace
+.DS_Store
+
+**/*.quarto_ipynb
+
+# Internal master record — DOB, phone, diploma numbers, unresolved flags.
+# Source of truth for the site content; never publish it.
+/Serebrennikov_Master_CV.md
