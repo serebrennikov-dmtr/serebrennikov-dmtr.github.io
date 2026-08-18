@@ -77,12 +77,10 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Dmitrii Serebrennikov">
 <meta property="og:description" content="Computational social scientist working on legal culture and cognition.">
-<meta property="og:image" content="https://serebrennikov-dmtr.github.io/assets/figures/schema-network.svg">
 <meta property="og:site_name" content="Dmitrii Serebrennikov">
-<meta property="og:image:alt" content="Schematic diagram of three overlapping cultural schema clusters, labelled law, rule and right, with unevenly distributed nodes representing individuals.">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="floating nav-fixed slimcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./policy.html"> 
-<span class="menu-text">Policy &amp; Data</span></a>
+<span class="menu-text">Policy</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
@@ -136,7 +134,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">About</h2>
+   
+  <ul>
+  <li><a href="#how-this-fits-together" id="toc-how-this-fits-together" class="nav-link active" data-scroll-target="#how-this-fits-together">How this fits together</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#grants-awards" id="toc-grants-awards" class="nav-link" data-scroll-target="#grants-awards">Grants &amp; awards</a></li>
+  <li><a href="#currently-working-on" id="toc-currently-working-on" class="nav-link" data-scroll-target="#currently-working-on">Currently working on</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -165,16 +172,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="content-block">
+<p style="font-family: sans-serif; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; margin-bottom: 0.5em;">
+Computational social science · Legal culture · Culture &amp; cognition · Criminology · Organizations
+</p>
 <p><em>Computational social scientist · legal culture and cognition · Kazakhstan Sociology Lab</em></p>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p><strong>Positions</strong></p>
 <p>Research director, <a href="https://kazsoclab.kz">Kazakhstan Sociology Lab</a>, Astana</p>
-<p>Research fellow, Institute for the Rule of Law, European University at Saint Petersburg</p>
+<p>Research fellow, <a href="https://enforce.spb.ru/en/">Institute for the Rule of Law</a>, European University at Saint Petersburg</p>
 <p><strong>Based in</strong> Astana, Kazakhstan</p>
 <p><strong>Contact</strong></p>
 <p><a href="mailto:d_serebrennikov@kazsoclab.kz">d_serebrennikov@kazsoclab.kz</a></p>
+<p><a href="mailto:serebrennikov.dmtr@gmail.com">serebrennikov.dmtr@gmail.com</a></p>
 <p><a href="https://orcid.org/0000-0002-2574-3842">ORCID 0000-0002-2574-3842</a></p>
 <p><a href="https://scholar.google.ru/citations?user=7AMjvF8AAAAJ">Google Scholar</a></p>
 <p><a href="https://github.com/serebrennikov-dmtr">GitHub</a></p>
@@ -183,10 +194,6 @@ ul.task-list li input[type="checkbox"] {
 </div></div><p><strong><em><code>L</code>egitimacy research</em></strong>, in most of its empirical forms, assumes a shared referent: that “the law,” “the rule,” “the right” mean roughly the same thing to everyone being asked whether it is legitimate. My work tests the alternative — that these terms are organised into distinct cultural schemas, unevenly distributed across a population, and that which schema a person holds predicts what they do (report to the police, file a complaint, comply, stay silent) at least as well as their attitudes do.</p>
 <p>Kazakhstan is a methodologically useful place to ask this. Russian- and Kazakh-speaking citizens live under one legal system; cohorts who came of age under different legal orders sit side by side. That gives the question empirical traction it wouldn’t have in a more homogeneous setting.</p>
 <p>Empirically, I work across NLP and embeddings, silicon sampling, survey design, spatial statistics and GIS, and explainable machine learning — in R, Python, SQL and QGIS — grounded in more than a hundred in-depth interviews.</p>
-<p><img src="assets/figures/schema-network.svg" class="img-fluid" style="width:100.0%" alt="Schematic diagram of three overlapping cultural schema clusters, labelled law, rule and right, with unevenly distributed nodes representing individuals."></p>
-<p class="figure-caption">
-Illustrative, not data: the kind of unevenly distributed schema structure the research asks about.
-</p>
 <section id="how-this-fits-together" class="level3">
 <h3 class="anchored" data-anchor-id="how-this-fits-together">How this fits together</h3>
 <p>My first publication, in 2020, was a review of Eugen Ehrlich on living law — the question behind it was where law exists outside the statute book. The several years of work that followed, on policing, surveillance and victimization, were not driven by an interest in crime as such: crime is where classification is dense, consequential and recorded, which makes it observable. That work produced a methodological objection. Research on legal legitimacy explains compliance through attitudes toward law while assuming the referent is the same for everyone asked; if “law” means different things to different people, measured variation in legitimacy conflates variation in attitude with variation in referent. The current programme follows from that: cognitive sociology supplies the theory of what differs — schemas, unevenly distributed — and computational methods supply the means to measure it.</p>
@@ -208,19 +215,6 @@ Illustrative, not data: the kind of unevenly distributed schema structure the re
 <li><strong>Schemas of law and order</strong> — testing whether “law,” “rule” and “right” function as separate cognitive schemas, using European Social Survey data and the text of citizens’ complaints to government bodies.</li>
 <li><strong>Prosody and the structure of talk about crime</strong> — an automated pipeline (WhisperX, forced alignment, pyannote diarisation, instrumental prosody in Praat, LLM-assisted sequence coding) for conversation-analytic transcription of calls about crime.</li>
 <li><strong>Open-ended questions in silicon sampling surveys</strong> — with Daniil Lebedev and Sanzhar Kalkanbay, a factorial field experiment (Astana, N ≈ 1,000) testing whether open-ended items reduce the uniformity bias LLM-simulated respondents show on closed questions.</li>
-</ul>
-</section>
-<section id="selected-media" class="level3">
-<h3 class="anchored" data-anchor-id="selected-media">Selected media</h3>
-<ul>
-<li><strong>RBC</strong>, Sep 2023 — Why Russia is building a unified biometric system</li>
-<li><strong>If Being Precise</strong> <em>(Esli byt’ tochnym)</em>, Jul 2022 — Crime in Russia may have risen 40% over three years, and fell into the blind zone of criminal statistics</li>
-<li><strong>If Being Precise</strong>, Jul 2022 — Only 4% of crime victims in Russia receive any compensation for damages</li>
-<li><strong>N + 1</strong>, Sep 2021 — Predict, She Wrote: how far crime prediction systems have come, and why they are criticised</li>
-<li><strong>Forbes</strong>, Jun 2021 — Watcher’s error: why smart cameras will not prevent high-profile crimes</li>
-<li><strong>Vedomosti</strong>, Extra Jus, Apr/May 2020 — Mass video surveillance: technological and bureaucratic problems</li>
-<li><strong>Vedomosti</strong>, Extra Jus, Apr 2019 — Why the police are not glad of citizen assistants and inspectors <em>(with K. Titaev)</em></li>
-<li><strong>Open Police</strong>, Nov 2018 — How and why the state watches citizens in public space <em>(expert commentary)</em></li>
 </ul>
 <hr>
 <p>I am open to collaborations, fellowships and PhD positions.</p>
