@@ -37,53 +37,23 @@ Kuchakov, R., **Serebrennikov, D.**, Bobrikov, D., Knorre, A., Skougarevskiy, D.
 
 Kuchakov, R., **Serebrennikov, D.** (2026). What Is a Victim? Conceptualizing Victimization in Surveys. *SocArXiv*. — [osf.io/preprints/socarxiv/k8yz7](https://osf.io/preprints/socarxiv/k8yz7)
 
-## Selected reports
-
-**Serebrennikov, D.**, Didikin, A., Bektibaeva, O. (2025). Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations. (in Russian) — [report](https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/)
-
-**Serebrennikov, D.**, Kusmanova, A. (2024). Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty. MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab. (in Russian) — [report](https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html)
-
-Nurgazin, A., **Serebrennikov, D.** (2025). Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan. MIND, Maqsut Narikbayev University. (in Russian) — [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)
-
-**Serebrennikov, D.**, Titaev, K. (2022). Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021). Institute for the Rule of Law, European University at Saint Petersburg. (in Russian) — [report](https://enforce.spb.ru/images/rcvs_2021_block_online.pdf)
-
-Nikitina, D., Khodjaeva, E., **Serebrennikov, D.** (2024). How and by Whom Forensic Expertise Is Made: Experts in the Context of Interagency Interaction. With contributions from S. Rumyantsev and A. Belyanskaya. Saint Petersburg: Institute for the Rule of Law, European University at Saint Petersburg. (in Russian)
-
-## Policy and commissioned research
+## Selected policy reports
 
 **Serebrennikov, D.**, Yergalieva, N., Nurgazin, A., Kalkanbay, S. (2026). Functional Communication in the Unified Kazakhstan Complaint Service: Text Analysis. MIND Analytical Reports, Maqsut Narikbayev University.
 
-AI for the Analysis of Citizens' Appeals (eOtinish). Eurasian Development Bank. Embedding-based topic similarity for a national appeals system, delivered as a dashboard. Research team lead, 2025–2026.
+**Serebrennikov, D.**, Didikin, A., Bektibaeva, O. (2025). Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations. (in Russian) — [report](https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/)
 
-Dynamics of Criminal Victimization in Russia, 2018–2024. Institute for the Rule of Law, EUSP. Methodologist and analyst, 2025.
+Nurgazin, A., **Serebrennikov, D.** (2025). Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan. MIND, Maqsut Narikbayev University. (in Russian) — [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)
 
-Readability of the Legal Acts of Kazakhstan. Senate of the Parliament of Kazakhstan, via Maqsut Narikbayev University. Research team lead, 2025.
+**Serebrennikov, D.**, Kusmanova, A. (2024). Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty. MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab. (in Russian) — [report](https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html)
 
-Readability of Legal Acts: International Practice and Standard-Setting. Institute for the Rule of Law, EUSP. Research team lead, 2025.
+**Serebrennikov, D.** (2024). Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium. MIND, Maqsut Narikbayev University. (in Russian) — [report](https://mind.mnu.kz/ru/reports/kontrol-i-nadzor-v-kazahstane-2023-g-konecz-moratoriya/)
 
-Fatal Road Traffic Accidents in Kazakhstan. Committee on Legal Statistics and Special Registers, General Prosecutor's Office. Research team lead, 2025.
+Nikitina, D., Khodjaeva, E., **Serebrennikov, D.** (2024). How and by Whom Forensic Expertise Is Made: Experts in the Context of Interagency Interaction. With contributions from S. Rumyantsev and A. Belyanskaya. Saint Petersburg: Institute for the Rule of Law, European University at Saint Petersburg. (in Russian)
 
-Assessment of Open Data Availability in Kazakhstan. Maqsut Narikbayev University. Research team lead, 2025. — [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)
+**Serebrennikov, D.**, Titaev, K. (2022). Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021). Institute for the Rule of Law, European University at Saint Petersburg. (in Russian) — [report](https://enforce.spb.ru/images/rcvs_2021_block_online.pdf)
 
-Identifying Risks in the Administrative Practice of State Bodies. Committee on Legal Statistics, General Prosecutor's Office. External expert, 2024.
-
-Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium. Maqsut Narikbayev University. Analyst, 2024. — [report](https://mind.mnu.kz/ru/reports/kontrol-i-nadzor-v-kazahstane-2023-g-konecz-moratoriya/)
-
-Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty. Maqsut Narikbayev University, with Kazakhstan Sociology Lab. Research team lead, 2024. — [report](https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html)
-
-Testing Near-Repeat Victimization Theory in Astana and Almaty. Maqsut Narikbayev University, for the Committee on Legal Statistics. First application of the near-repeat design in Central Asia; underlies the *Journal of Criminal Justice* article. Research team lead, 2024. — [report](https://mnu.kz/mind_reports/Serebrennikov_Bulatov_NearRep.html)
-
-Domestic Violence in Kazakhstan: Administrative Offence Data, 2020–2024. Committee on Legal Statistics, General Prosecutor's Office. Research team lead, 2024.
-
-Effectiveness of Facial Recognition for Crime Clearance in Moscow. Collective Action research centre, Brussels. Research team lead, 2023.
-
-Public Security in Partnership with Society, 2024–2028 (policy concept). Ministry of Internal Affairs of Kazakhstan. Advisory only, not an author of the concept itself. External expert, 2022.
-
-Assessment of Criminal Victimization in Russia, 2021. Institute for the Rule of Law, EUSP. Methodologist and analyst, 2021.
-
-Should the Weight of a Pure Narcotic Substance Be Equated with the Weight of the Mixture Containing It? Evidence from Four European Countries. Institute for the Rule of Law, EUSP, with V. Kudryavtsev and Yu. Kuzmina. Analyst, 2019.
-
-## Data & code
+## Datasets
 
 **Russian Crime Victimization Survey (RCVS).** Three waves (2018, 2021, 2024), 42,572 pooled respondents, a 3,456-person longitudinal panel, and a pooled cross-sectional dataset released openly on SSRN. I managed wave 2 end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only *repeated* nationwide victimization survey in Russia.
 
@@ -91,5 +61,3 @@ Should the Weight of a Pure Narcotic Substance Be Equated with the Weight of the
 
 - **Serebrennikov, D.** Spatial Data on Socio-Economic Characteristics in Almaty. researchdata.kz, 2026. — [researchdata.kz/data/218](https://researchdata.kz/data/218)
 - **Serebrennikov, D.**, Kalkanbay, S. Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026. researchdata.kz, 2026. — [researchdata.kz/data/162](https://researchdata.kz/data/162)
-
-**Code.** Replication data and code for the *Russian Politics* article, "Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment" — [github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo](https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo).
