@@ -51,11 +51,7 @@ My current work is in the culture-and-cognition tradition. Empirical research on
 
 I came to this by an indirect route. I studied history as an undergraduate, and moved into sociology through fieldwork during my MA: interviews and observation in emergency call centres and camera monitoring rooms. Computational methods came last, because I realized that some questions traditionally addressed through qualitative methods can now be measured using NLP, machine learning etc. What has stayed constant is an interest in classification systems and orders of rules. What has changed recently is the location of the question — from classification as institutions perform it to classification as the people being classified hold it. Fieldwork to find out what a category is, computation to find out how it is spread.
 
-**Selected works**
-
-- [Near-repeat victimization across urban morphologies](https://doi.org/10.1016/j.jcrimjus.2025.102551) — *Journal of Criminal Justice*, 2026
-- [Patterns of CCTV placement in four European capitals](https://doi.org/10.1007/s42001-024-00323-1) — *Journal of Computational Social Science*, 2024
-- [Russian Crime Victimization Survey, 2018–2024](https://dx.doi.org/10.2139/ssrn.6418058) — open dataset, SSRN
+**Selected works:** [Near-repeat victimization across urban morphologies](https://doi.org/10.1016/j.jcrimjus.2025.102551) — *Journal of Criminal Justice*, 2026; [Patterns of CCTV placement in four European capitals](https://doi.org/10.1007/s42001-024-00323-1) — *Journal of Computational Social Science*, 2024; [Russian Crime Victimization Survey, 2018–2024](https://dx.doi.org/10.2139/ssrn.6418058) — open dataset, SSRN.
 
 ## Education
 
