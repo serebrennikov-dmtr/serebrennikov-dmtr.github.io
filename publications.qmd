@@ -7,51 +7,51 @@ toc-title: "Publications"
 
 ## Peer-reviewed articles
 
-Serebrennikov, D., Minaeva, E., Ross, E. (forthcoming 2026). Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment. *Russian Politics*. Brill.
+**Serebrennikov, D.**, Minaeva, E., Ross, E. (forthcoming 2026). Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment. *Russian Politics*. Brill.
 
-Serebrennikov, D., Varshaver, E. (forthcoming 2026). Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanation. *Sociology of Power*. (in Russian)
+**Serebrennikov, D.**, Varshaver, E. (forthcoming 2026). Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanation. *Sociology of Power*. (in Russian)
 
-Serebrennikov, D., Kalkanbay, S. (2026). What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan. *Journal of Criminal Justice*, 102, 102551. — [doi.org/10.1016/j.jcrimjus.2025.102551](https://doi.org/10.1016/j.jcrimjus.2025.102551)
+**Serebrennikov, D.**, Kalkanbay, S. (2026). What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan. *Journal of Criminal Justice*, 102, 102551. — [doi.org/10.1016/j.jcrimjus.2025.102551](https://doi.org/10.1016/j.jcrimjus.2025.102551)
 
-Serebrennikov, D., Skougarevskiy, D. (2024). A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement. *Journal of Computational Social Science*. — [doi.org/10.1007/s42001-024-00323-1](https://doi.org/10.1007/s42001-024-00323-1)
+**Serebrennikov, D.**, Skougarevskiy, D. (2024). A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement. *Journal of Computational Social Science*. — [doi.org/10.1007/s42001-024-00323-1](https://doi.org/10.1007/s42001-024-00323-1)
 
-Serebrennikov, D. (2023). From Call to Emergency Card: Seeking "112" Operator Discretion. *Forum for Anthropology and Culture*, 59, 130–152. (in Russian) — [doi.org/10.31250/1815-8870-2023-19-59-130-152](https://doi.org/10.31250/1815-8870-2023-19-59-130-152)
+**Serebrennikov, D.** (2023). From Call to Emergency Card: Seeking "112" Operator Discretion. *Forum for Anthropology and Culture*, 59, 130–152. (in Russian) — [doi.org/10.31250/1815-8870-2023-19-59-130-152](https://doi.org/10.31250/1815-8870-2023-19-59-130-152)
 
-Serebrennikov, D. (2023). Gaze Ex Machina: A Brief History of Police CCTV Surveillance in Russia and Western Countries. *Urban Studies and Practices*, 8(3), 101–112. (in Russian) — [doi.org/10.17323/usp832023101-112](https://doi.org/10.17323/usp832023101-112)
+**Serebrennikov, D.** (2023). Gaze Ex Machina: A Brief History of Police CCTV Surveillance in Russia and Western Countries. *Urban Studies and Practices*, 8(3), 101–112. (in Russian) — [doi.org/10.17323/usp832023101-112](https://doi.org/10.17323/usp832023101-112)
 
-Serebrennikov, D. (2023). Infrastructure as a Camera Obscura of Social Classifications: Urban Video Surveillance Systems in Small Cities. *Monitoring of Public Opinion*, 3. (in Russian) — [doi.org/10.14515/monitoring.2023.3.2325](https://doi.org/10.14515/monitoring.2023.3.2325)
+**Serebrennikov, D.** (2023). Infrastructure as a Camera Obscura of Social Classifications: Urban Video Surveillance Systems in Small Cities. *Monitoring of Public Opinion*, 3. (in Russian) — [doi.org/10.14515/monitoring.2023.3.2325](https://doi.org/10.14515/monitoring.2023.3.2325)
 
-Verkeev, A., Serebrennikov, D. (2023). Victims of Their Own Fear: Perceived Safety and Crime Victim Experience in Russia. *Russian Sociological Review*, 22(2), 179–206. (in Russian) — [doi.org/10.17323/1728-192x-2023-2-179-206](https://doi.org/10.17323/1728-192x-2023-2-179-206)
+Verkeev, A., **Serebrennikov, D.** (2023). Victims of Their Own Fear: Perceived Safety and Crime Victim Experience in Russia. *Russian Sociological Review*, 22(2), 179–206. (in Russian) — [doi.org/10.17323/1728-192x-2023-2-179-206](https://doi.org/10.17323/1728-192x-2023-2-179-206)
 
-Serebrennikov, D., Khodjaeva, E., Shepeleva, O. (2023). "Street-Level Algorithm": Two Styles of Automated Law Enforcement in the Moscow "Social Monitoring" Application. *The Journal of Social Policy Studies*, 21(1), 7–24. (in Russian) — [doi.org/10.17323/727-0634-2023-21-1-7-24](https://doi.org/10.17323/727-0634-2023-21-1-7-24)
+**Serebrennikov, D.**, Khodjaeva, E., Shepeleva, O. (2023). "Street-Level Algorithm": Two Styles of Automated Law Enforcement in the Moscow "Social Monitoring" Application. *The Journal of Social Policy Studies*, 21(1), 7–24. (in Russian) — [doi.org/10.17323/727-0634-2023-21-1-7-24](https://doi.org/10.17323/727-0634-2023-21-1-7-24)
 
-Muravyev, A., Yuldashev, O., Serebrennikov, D. (2021). Surveillance Cameras in Cities: Security and Territory. *Neprikosnovenny Zapas*, 6(140), 26–41. (in Russian)
+Muravyev, A., Yuldashev, O., **Serebrennikov, D.** (2021). Surveillance Cameras in Cities: Security and Territory. *Neprikosnovenny Zapas*, 6(140), 26–41. (in Russian)
 
-Serebrennikov, D., Kuzmina, Yu. (2021). Field Experiments and the Rubin Causal Model: A Review of Approaches and Current Research. *Journal of Economic Sociology*, 22(4), 117–139. (in Russian) — [doi.org/10.17323/1726-3247-2021-4-117-139](https://doi.org/10.17323/1726-3247-2021-4-117-139)
+**Serebrennikov, D.**, Kuzmina, Yu. (2021). Field Experiments and the Rubin Causal Model: A Review of Approaches and Current Research. *Journal of Economic Sociology*, 22(4), 117–139. (in Russian) — [doi.org/10.17323/1726-3247-2021-4-117-139](https://doi.org/10.17323/1726-3247-2021-4-117-139)
 
-Serebrennikov, D. (2020). [Review] Ehrlich, E., Fundamental Principles of the Sociology of Law. *Sotsiologicheskiy Zhurnal*, 26(1), 183–189. (in Russian) — [doi.org/10.19181/socjour.2020.26.1.7059](https://doi.org/10.19181/socjour.2020.26.1.7059)
+**Serebrennikov, D.** (2020). [Review] Ehrlich, E., Fundamental Principles of the Sociology of Law. *Sotsiologicheskiy Zhurnal*, 26(1), 183–189. (in Russian) — [doi.org/10.19181/socjour.2020.26.1.7059](https://doi.org/10.19181/socjour.2020.26.1.7059)
 
 ## Preprints and datasets
 
-Kuchakov, R., Serebrennikov, D., Bobrikov, D., Knorre, A., Skougarevskiy, D. (2026). Russian Crime Victimization Survey: Pooled Cross-Sections and a Longitudinal Panel, 2018–2024. *SSRN*. — [dx.doi.org/10.2139/ssrn.6418058](https://dx.doi.org/10.2139/ssrn.6418058)
+Kuchakov, R., **Serebrennikov, D.**, Bobrikov, D., Knorre, A., Skougarevskiy, D. (2026). Russian Crime Victimization Survey: Pooled Cross-Sections and a Longitudinal Panel, 2018–2024. *SSRN*. — [dx.doi.org/10.2139/ssrn.6418058](https://dx.doi.org/10.2139/ssrn.6418058)
 
-Kuchakov, R., Serebrennikov, D. (2026). What Is a Victim? Conceptualizing Victimization in Surveys. *SocArXiv*. — [osf.io/preprints/socarxiv/k8yz7](https://osf.io/preprints/socarxiv/k8yz7)
+Kuchakov, R., **Serebrennikov, D.** (2026). What Is a Victim? Conceptualizing Victimization in Surveys. *SocArXiv*. — [osf.io/preprints/socarxiv/k8yz7](https://osf.io/preprints/socarxiv/k8yz7)
 
 ## Selected reports
 
-Serebrennikov, D., Didikin, A., Bektibaeva, O. (2025). Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations. (in Russian) — [report](https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/)
+**Serebrennikov, D.**, Didikin, A., Bektibaeva, O. (2025). Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations. (in Russian) — [report](https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/)
 
-Serebrennikov, D., Kusmanova, A. (2024). Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty. MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab. (in Russian) — [report](https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html)
+**Serebrennikov, D.**, Kusmanova, A. (2024). Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty. MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab. (in Russian) — [report](https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html)
 
-Nurgazin, A., Serebrennikov, D. (2025). Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan. MIND, Maqsut Narikbayev University. (in Russian) — [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)
+Nurgazin, A., **Serebrennikov, D.** (2025). Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan. MIND, Maqsut Narikbayev University. (in Russian) — [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)
 
-Serebrennikov, D., Titaev, K. (2022). Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021). Institute for the Rule of Law, European University at Saint Petersburg. (in Russian) — [report](https://enforce.spb.ru/images/rcvs_2021_block_online.pdf)
+**Serebrennikov, D.**, Titaev, K. (2022). Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021). Institute for the Rule of Law, European University at Saint Petersburg. (in Russian) — [report](https://enforce.spb.ru/images/rcvs_2021_block_online.pdf)
 
-Nikitina, D., Khodjaeva, E., Serebrennikov, D. (2024). How and by Whom Forensic Expertise Is Made: Experts in the Context of Interagency Interaction. With contributions from S. Rumyantsev and A. Belyanskaya. Saint Petersburg: Institute for the Rule of Law, European University at Saint Petersburg. (in Russian)
+Nikitina, D., Khodjaeva, E., **Serebrennikov, D.** (2024). How and by Whom Forensic Expertise Is Made: Experts in the Context of Interagency Interaction. With contributions from S. Rumyantsev and A. Belyanskaya. Saint Petersburg: Institute for the Rule of Law, European University at Saint Petersburg. (in Russian)
 
 ## Policy and commissioned research
 
-Serebrennikov, D., Yergalieva, N., Nurgazin, A., Kalkanbay, S. (2026). Functional Communication in the Unified Kazakhstan Complaint Service: Text Analysis. MIND Analytical Reports, Maqsut Narikbayev University.
+**Serebrennikov, D.**, Yergalieva, N., Nurgazin, A., Kalkanbay, S. (2026). Functional Communication in the Unified Kazakhstan Complaint Service: Text Analysis. MIND Analytical Reports, Maqsut Narikbayev University.
 
 AI for the Analysis of Citizens' Appeals (eOtinish). Eurasian Development Bank. Embedding-based topic similarity for a national appeals system, delivered as a dashboard. Research team lead, 2025–2026.
 
@@ -89,7 +89,7 @@ Should the Weight of a Pure Narcotic Substance Be Equated with the Weight of the
 
 **researchdata.kz.** A data hub for social scientists working on Kazakhstan, launched June 2026 through Kazakhstan Sociology Lab. Two datasets are deposited under my authorship:
 
-- Serebrennikov, D. Spatial Data on Socio-Economic Characteristics in Almaty. researchdata.kz, 2026. — [researchdata.kz/data/218](https://researchdata.kz/data/218)
-- Serebrennikov, D., Kalkanbay, S. Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026. researchdata.kz, 2026. — [researchdata.kz/data/162](https://researchdata.kz/data/162)
+- **Serebrennikov, D.** Spatial Data on Socio-Economic Characteristics in Almaty. researchdata.kz, 2026. — [researchdata.kz/data/218](https://researchdata.kz/data/218)
+- **Serebrennikov, D.**, Kalkanbay, S. Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026. researchdata.kz, 2026. — [researchdata.kz/data/162](https://researchdata.kz/data/162)
 
 **Code.** Replication data and code for the *Russian Politics* article, "Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment" — [github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo](https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo).
