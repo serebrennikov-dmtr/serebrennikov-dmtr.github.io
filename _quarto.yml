@@ -29,7 +29,7 @@ website:
   back-to-top-navigation: false
   page-footer:
     left: |
-      © 2026, built with <a href="https://quarto.org" target="_blank">Quarto</a> and the <a href="https://mdwm.org/quarto-pressmark/" target="_blank">Pressmark</a> theme
+      © 2026, built with <a href="https://quarto.org" target="_blank">Quarto</a>
     right:
       - text: "GitHub"
         href: "https://github.com/serebrennikov-dmtr"
@@ -40,7 +40,8 @@ website:
 
 format:
   html:
-    theme: pressmark.scss
+    theme: newsprint.scss
+    include-in-header: _includes/fonts.html
     grid:
       body-width: 900px
       margin-width: 260px

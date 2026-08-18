@@ -1,0 +1,365 @@
+/*-- scss:defaults --*/
+
+// NEWSPRINT — editorial surface, technical metadata.
+//
+// Display serif for headings (Newsreader), neutral sans for reading (Inter),
+// monospace for every piece of metadata (JetBrains Mono). The monospace is
+// what signals computational work; that is why this theme stays on a light
+// surface rather than reaching for a dark one.
+//
+// Fonts are loaded in _includes/fonts.html, not imported here, so the
+// stylesheet does not block on a second network round trip.
+
+// ----------------------------------------------------------------------------
+// PALETTE
+
+$paper:        #FAF9F7; // page background — near-white so exported figures sit flush
+$paper-shade:  #F1EFEA; // code blocks, subtle fills
+$ink:          #17140F; // body text
+$muted:        #6B6659; // metadata, captions
+$rule:         #DAD6CE; // hairlines
+$accent:       #8B2E3C; // links, resource icons
+$accent-soft:  #C99AA3; // hover states
+
+// ----------------------------------------------------------------------------
+// TYPE
+
+$font-family-headings:  'Newsreader', Georgia, 'Times New Roman', serif;
+$font-family-text:      'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+$font-family-base:  $font-family-text;
+$headings-font-family: $font-family-headings;
+$font-size-base:    1.0625rem; // 17px
+$font-weight-base:  400;
+$line-height-base:  1.65;
+$font-size-small:   0.85em;
+$headings-font-weight: 400;
+$headings-line-height: 1.18;
+
+// ----------------------------------------------------------------------------
+// BOOTSTRAP OVERRIDES
+
+$body-bg:        $paper;
+$body-color:     $ink;
+$headings-color: $ink;
+$link-color:     $accent;
+$link-hover-color: $accent;
+$border-color:   $rule;
+
+$code-bg:        $paper-shade;
+$code-color:     $ink;
+$code-block-bg:  $paper-shade;
+
+$navbar-bg: $paper;
+$navbar-fg: $ink;
+$navbar-toggler-border-radius: 0;
+$navbar-toggler-border-color: $rule;
+$navbar-toggler-focus-width: 2px;
+
+$footer-bg: $paper;
+$footer-fg: $muted;
+
+$table-border-width: 0;
+$table-border-color: $rule;
+
+$grid-body-width:    700px !default;
+$grid-sidebar-width: 260px !default;
+$grid-margin-width:  260px !default;
+
+/*-- scss:rules --*/
+
+// ############################################################################
+// BASE
+// ############################################################################
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2.3rem; margin-bottom: 0.4em; }
+h2 { font-size: 1.55rem; margin-top: 2.2rem; margin-bottom: 0.7rem; }
+h3 { font-size: 1.2rem;  margin-top: 1.8rem; margin-bottom: 0.5rem; }
+
+p { margin-bottom: 1.1rem; }
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  text-decoration-color: $accent-soft;
+  &:hover { text-decoration-color: $accent; }
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $rule;
+  margin: 2.4rem 0;
+}
+
+blockquote {
+  border-left: 2px solid $rule;
+  padding-left: 1.1rem;
+  color: $muted;
+  font-style: normal;
+}
+
+// ############################################################################
+// CHROME
+// ############################################################################
+
+.navbar {
+  background-color: $paper;
+  border-bottom: 1px solid $ink;
+  min-height: 64px;
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  .navbar-title {
+    font-family: $font-family-headings;
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    color: $ink;
+  }
+
+  .nav-link {
+    color: $muted !important;
+    &:hover, &.active { color: $accent !important; }
+  }
+}
+
+.footer {
+  border-top: 1px solid $rule;
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  color: $muted;
+  a { color: $muted; }
+}
+
+// Page title block
+.quarto-title-block {
+  padding-top: 3.5vh;
+  padding-bottom: 1.2em;
+  border-bottom: 1px solid $ink;
+  margin-bottom: 2rem;
+}
+
+.quarto-title .description {
+  font-family: $font-family-monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  color: $muted;
+  text-transform: uppercase;
+}
+
+header:empty { display: none; }
+
+// Left-hand table of contents
+#TOC, .sidebar nav[role="doc-toc"] {
+  font-size: 0.85rem;
+
+  .nav-link {
+    color: $muted;
+    padding: 0.18rem 0;
+    border-left: 0;
+    &:hover { color: $accent; }
+    &.active { color: $accent; font-weight: 500; }
+  }
+
+  > h2, .toc-title, #toc-title {
+    font-family: $font-family-monospace;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $muted;
+    border-bottom: 1px solid $rule;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
+}
+
+// ############################################################################
+// CONTENT ELEMENTS
+// ############################################################################
+
+table {
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  margin: 1.4rem 0;
+
+  thead th {
+    font-family: $font-family-monospace;
+    font-size: 0.68rem;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $muted;
+    border-bottom: 1px solid $ink !important;
+    padding: 0.4rem 0.9rem 0.4rem 0;
+    text-align: left;
+    vertical-align: bottom;
+  }
+
+  tbody td {
+    border-bottom: 1px solid $rule;
+    padding: 0.6rem 0.9rem 0.6rem 0;
+    vertical-align: top;
+  }
+
+  tbody tr:last-child td { border-bottom: 0; }
+}
+
+code:not(.sourceCode) {
+  font-size: 0.85em;
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
+// Keyword strapline under the name on About
+.site-keywords {
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $muted;
+  margin-bottom: 0.5rem;
+}
+
+// Margin column (contact block on About)
+.column-margin {
+  font-family: $font-family-text;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: $muted;
+
+  strong { color: $ink; font-weight: 500; }
+  p { margin-bottom: 0.55rem; }
+}
+
+.figure-caption, figcaption {
+  font-family: $font-family-monospace;
+  font-size: 0.68rem;
+  line-height: 1.5;
+  color: $muted;
+}
+
+// ############################################################################
+// PUBLICATION ENTRIES
+// ############################################################################
+
+.pub-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.1rem;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid $rule;
+  align-items: start;
+
+  &.has-thumb { grid-template-columns: minmax(0, 1fr) 132px; }
+
+  &:last-child { border-bottom: 0; }
+}
+
+.pub-title {
+  font-family: $font-family-headings;
+  font-size: 1.08rem;
+  line-height: 1.28;
+  margin-bottom: 0.3rem;
+
+  a { color: $ink; text-decoration: none; }
+  a:hover { color: $accent; }
+}
+
+.pub-authors {
+  font-size: 0.87rem;
+  line-height: 1.5;
+  color: $muted;
+  margin-bottom: 0.3rem;
+
+  strong { color: $ink; font-weight: 500; }
+}
+
+.pub-meta {
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  color: $muted;
+  margin-bottom: 0.55rem;
+
+  em { font-style: normal; color: $ink; }
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.95rem;
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+
+  a {
+    color: $accent;
+    text-decoration: none;
+    &:hover { text-decoration: underline; text-underline-offset: 2px; }
+  }
+
+  i, svg { margin-right: 0.25em; }
+}
+
+.pub-thumb {
+  width: 132px;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid $rule;
+  }
+}
+
+// ############################################################################
+// TEACHING
+// ############################################################################
+
+.course-icon {
+  font-family: $font-family-monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $accent;
+  border: 1px solid $rule;
+  padding: 0.1rem 0.4rem;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+// ############################################################################
+// RESPONSIVE
+// ############################################################################
+
+@media (max-width: 767.98px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.35rem; }
+
+  .navbar { min-height: 56px; }
+
+  .pub-entry,
+  .pub-entry.has-thumb {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.8rem;
+  }
+
+  .pub-thumb { width: 100%; max-width: 260px; }
+
+  table { font-size: 0.82rem; }
+}

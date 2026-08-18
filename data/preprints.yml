@@ -1,0 +1,18 @@
+- title: "Russian Crime Victimization Survey: Pooled Cross-Sections and a Longitudinal Panel, 2018–2024"
+  authors: "Kuchakov, R., Serebrennikov, D., Bobrikov, D., Knorre, A., Skougarevskiy, D."
+  year: "2026"
+  venue: "SSRN"
+  links:
+    - label: paper
+      icon: paper
+      href: "https://dx.doi.org/10.2139/ssrn.6418058"
+
+- title: "What Is a Victim? Conceptualizing Victimization in Surveys"
+  authors: "Kuchakov, R., Serebrennikov, D."
+  year: "2026"
+  venue: "SocArXiv"
+  note: "in Russian"
+  links:
+    - label: preprint
+      icon: paper
+      href: "https://osf.io/preprints/socarxiv/k8yz7"

@@ -13,17 +13,17 @@ The programme is blended online and offline, structured across four modules from
 
 ## Courses of my own design
 
-| Course | Programme / institution | Period |
-|---|---|---|
-| Quantitative Sociology of Culture *(with M. Safonova and Zh. Aubakirova)* | Sociology School, KSL | 2026 |
-| Research Seminar | Sociology School, KSL | 2026 |
-| Machine Learning for Social Science | MA Data Analytics for Politics and Society, HSE University Saint Petersburg campus | 2023 |
-| Contemporary Sociological Theory | Sociology School, Kazakhstan Sociology Lab | 2023–2026 |
-| Data Analysis and Exploratory Analysis in R | Sociology School, KSL | 2023–2026 |
-| Data Mining | Sociology School, KSL | 2023–2026 |
-| Introduction to Sociological Theory | MA Empirical Legal Studies, EUSP | 2022–2023 |
-| Exploratory Data Analysis with R | Bioinformatics Institute, Saint Petersburg | 2021–2024 |
-| Introduction to Data Analysis in R + Data Visualization | MA Data Science / Applied Data Analysis, EUSP × Yandex School of Data Analysis | 2021–2024 |
+| | Course | Programme / institution | Period |
+|---|---|---|---|
+| [theory]{.course-icon} | Quantitative Sociology of Culture *(with M. Safonova and Zh. Aubakirova)* | Sociology School, KSL | 2026 |
+| [methods]{.course-icon} | Research Seminar | Sociology School, KSL | 2026 |
+| [ML]{.course-icon} | Machine Learning for Social Science | MA Data Analytics for Politics and Society, HSE University Saint Petersburg campus | 2023 |
+| [theory]{.course-icon} | Contemporary Sociological Theory | Sociology School, Kazakhstan Sociology Lab | 2023–2026 |
+| [R]{.course-icon} | Data Analysis and Exploratory Analysis in R | Sociology School, KSL | 2023–2026 |
+| [ML]{.course-icon} | Data Mining | Sociology School, KSL | 2023–2026 |
+| [theory]{.course-icon} | Introduction to Sociological Theory | MA Empirical Legal Studies, EUSP | 2022–2023 |
+| [R]{.course-icon} | Exploratory Data Analysis with R | Bioinformatics Institute, Saint Petersburg | 2021–2024 |
+| [R]{.course-icon} | Introduction to Data Analysis in R + Data Visualization | MA Data Science / Applied Data Analysis, EUSP × Yandex School of Data Analysis | 2021–2024 |
 
 ## Summer Schools
 
@@ -31,14 +31,14 @@ The programme is blended online and offline, structured across four modules from
 
 ## Workshops and short courses
 
-| Workshop | Host | Date |
-|---|---|---|
-| Data Without Data? Using Large Language Models to Advance Social Research in Central Asia | Nazarbayev University × Central Eurasian Studies Society | 2026 |
-| The Cognitive Turn in Social Research *(keynote)* | International Winter School, Al-Farabi Kazakh National University | 2026 |
-| New Surveillance, Old Challenges: The Digitalization of Investigative Work in Russia | Days of the Institute for the Rule of Law, Yerevan | 2024 |
-| Research Methodology and Sociology of Law *(guest lectures)* | Maqsut Narikbayev University | 2024–2025 |
-| Contemporary Survey Research and Its Analysis *(3 days)* | Public Opinion Research Centre, Atyrau city administration | 2023 |
-| Working with Data and Graphics for Police Analytics *(1 day)* | Makan Yesbulatov Almaty Academy of the Ministry of Internal Affairs of Kazakhstan | 2023 |
-| Web Scraping & Parsing | Sociology School, Kazakhstan Sociology Lab | 2023–2026 |
-| Python for R Users | Sociology School, KSL | 2023–2026 |
-| Introduction to Git | Sociology School, KSL | 2023–2026 |
+| | Workshop | Host | Date |
+|---|---|---|---|
+| [LLM]{.course-icon} | Data Without Data? Using Large Language Models to Advance Social Research in Central Asia | Nazarbayev University × Central Eurasian Studies Society | 2026 |
+| [theory]{.course-icon} | The Cognitive Turn in Social Research *(keynote)* | International Winter School, Al-Farabi Kazakh National University | 2026 |
+| [theory]{.course-icon} | New Surveillance, Old Challenges: The Digitalization of Investigative Work in Russia | Days of the Institute for the Rule of Law, Yerevan | 2024 |
+| [methods]{.course-icon} | Research Methodology and Sociology of Law *(guest lectures)* | Maqsut Narikbayev University | 2024–2025 |
+| [methods]{.course-icon} | Contemporary Survey Research and Its Analysis *(3 days)* | Public Opinion Research Centre, Atyrau city administration | 2023 |
+| [R]{.course-icon} | Working with Data and Graphics for Police Analytics *(1 day)* | Makan Yesbulatov Almaty Academy of the Ministry of Internal Affairs of Kazakhstan | 2023 |
+| [Python]{.course-icon} | Web Scraping & Parsing | Sociology School, Kazakhstan Sociology Lab | 2023–2026 |
+| [Python]{.course-icon} | Python for R Users | Sociology School, KSL | 2023–2026 |
+| [Git]{.course-icon} | Introduction to Git | Sociology School, KSL | 2023–2026 |

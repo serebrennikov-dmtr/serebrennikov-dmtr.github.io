@@ -1,0 +1,61 @@
+- title: "Functional Communication in the Unified Kazakhstan Complaint Service: Text Analysis"
+  authors: "Serebrennikov, D., Yergalieva, N., Nurgazin, A., Kalkanbay, S."
+  year: "2026"
+  venue: "MIND Analytical Reports, Maqsut Narikbayev University"
+
+- title: "Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations"
+  authors: "Serebrennikov, D., Didikin, A., Bektibaeva, O."
+  year: "2025"
+  venue: "MIND, Maqsut Narikbayev University"
+  note: "in Russian"
+  links:
+    - label: report
+      icon: report
+      href: "https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/"
+
+- title: "Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan"
+  authors: "Nurgazin, A., Serebrennikov, D."
+  year: "2025"
+  venue: "MIND, Maqsut Narikbayev University"
+  note: "in Russian"
+  links:
+    - label: report
+      icon: report
+      href: "https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf"
+
+- title: "Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty"
+  authors: "Serebrennikov, D., Kusmanova, A."
+  year: "2024"
+  venue: "MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab"
+  note: "in Russian"
+  links:
+    - label: report
+      icon: report
+      href: "https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html"
+
+- title: "Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium"
+  authors: "Serebrennikov, D."
+  year: "2024"
+  venue: "MIND, Maqsut Narikbayev University"
+  note: "in Russian"
+  links:
+    - label: report
+      icon: report
+      href: "https://mind.mnu.kz/ru/reports/kontrol-i-nadzor-v-kazahstane-2023-g-konecz-moratoriya/"
+
+- title: "How and by Whom Forensic Expertise Is Made: Experts in the Context of Interagency Interaction"
+  authors: "Nikitina, D., Khodjaeva, E., Serebrennikov, D."
+  year: "2024"
+  venue: "Institute for the Rule of Law, European University at Saint Petersburg"
+  detail: "with contributions from S. Rumyantsev and A. Belyanskaya"
+  note: "in Russian"
+
+- title: "Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021)"
+  authors: "Serebrennikov, D., Titaev, K."
+  year: "2022"
+  venue: "Institute for the Rule of Law, European University at Saint Petersburg"
+  note: "in Russian"
+  links:
+    - label: report
+      icon: report
+      href: "https://enforce.spb.ru/images/rcvs_2021_block_online.pdf"

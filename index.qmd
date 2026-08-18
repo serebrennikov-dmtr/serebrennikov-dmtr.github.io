@@ -13,7 +13,7 @@ format:
 
 ::: {.content-block}
 
-<p style="font-family: sans-serif; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; margin-bottom: 0.5em;">Computational social science · Legal culture · Culture &amp; cognition · Criminology</p>
+<p class="site-keywords">Computational social science · Legal culture · Culture &amp; cognition · Criminology</p>
 
 :::
 
@@ -45,7 +45,7 @@ Research fellow, [Institute for the Rule of Law](https://enforce.spb.ru/en/), Eu
 
 :::
 
-***`L`egitimacy research***, in most of its empirical forms, assumes a shared referent: that "the law," "the rule," "the right" mean roughly the same thing to everyone being asked whether it is legitimate. My work tests the alternative — that these terms are organised into distinct cultural schemas, unevenly distributed across a population, and that which schema a person holds predicts what they do (report to the police, file a complaint, comply, stay silent) at least as well as their attitudes do.
+Legitimacy research, in most of its empirical forms, assumes a shared referent: that "the law," "the rule," "the right" mean roughly the same thing to everyone being asked whether it is legitimate. My work tests the alternative — that these terms are organised into distinct cultural schemas, unevenly distributed across a population, and that which schema a person holds predicts what they do (report to the police, file a complaint, comply, stay silent) at least as well as their attitudes do.
 
 Kazakhstan is a methodologically useful place to ask this. Russian- and Kazakh-speaking citizens live under one legal system; cohorts who came of age under different legal orders sit side by side. That gives the question empirical traction it wouldn't have in a more homogeneous setting.
 
