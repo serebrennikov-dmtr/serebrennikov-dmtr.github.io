@@ -13,7 +13,7 @@ format:
 
 ::: {.content-block}
 
-<p class="site-keywords">Computational social science · Legal culture · Culture &amp; cognition · Criminology</p>
+<p class="site-keywords">Empirical legal studies · Sociology of culture · Criminology · Computational social science</p>
 
 :::
 
@@ -45,13 +45,17 @@ Research fellow, [Institute for the Rule of Law](https://enforce.spb.ru/en/), Eu
 
 :::
 
-Legitimacy research, in most of its empirical forms, assumes a shared referent: that "the law," "the rule," "the right" mean roughly the same thing to everyone being asked whether it is legitimate. My work tests the alternative — that these terms are organised into distinct cultural schemas, unevenly distributed across a population, and that which schema a person holds predicts what they do (report to the police, file a complaint, comply, stay silent) at least as well as their attitudes do.
+I am a sociologist working in empirical legal studies and the sociology of law, with computational and survey methods. Most of my published work sits at one of two intersections. With the sociology of culture: how legal and administrative categories are produced, applied and contested — officials' perceptions of dangerous spaces, emergency-call classification, forensic expertise. With criminology: victimization measurement, near-repeat crime patterns, policing and surveillance infrastructures. Alongside this I have led policy research in Kazakhstan, on administrative microdata, citizens' appeals to government agencies, legislative readability and open data.
 
-Kazakhstan is a methodologically useful place to ask this. Russian- and Kazakh-speaking citizens live under one legal system; cohorts who came of age under different legal orders sit side by side. That gives the question empirical traction it wouldn't have in a more homogeneous setting.
+My current work is in the culture-and-cognition tradition. Empirical research on legal legitimacy assumes a shared referent: that "the law", "the rule", "the right" mean roughly the same thing to everyone asked whether they are legitimate. I am testing the alternative — that these terms are organised into distinct cultural schemas (semantic networks), unevenly distributed across a population, and that which schema a person holds bears on what they do: report to the police, file a complaint, comply, stay silent.
 
-Empirically, I work across NLP and embeddings, silicon sampling, survey design, spatial statistics and GIS, and explainable machine learning — in R, Python, SQL and QGIS — grounded in more than a hundred in-depth interviews.
+I came to this by an indirect route. I studied history as an undergraduate, and moved into sociology through fieldwork during my MA: interviews and observation in emergency call centres and camera monitoring rooms. Computational methods came last, because I realized that some questions traditionally addressed through qualitative methods can now be measured using NLP, machine learning etc. What has stayed constant is an interest in classification systems and orders of rules. What has changed recently is the location of the question — from classification as institutions perform it to classification as the people being classified hold it. Fieldwork to find out what a category is, computation to find out how it is spread.
 
-**How this fits together?** My first publication, in 2020, was a review of Eugen Ehrlich on living law — the question behind it was where law exists outside the statute book. The several years of work that followed, on policing, surveillance and victimization, were not driven by an interest in crime as such: crime is where classification is dense, consequential and recorded, which makes it observable. That work produced a methodological objection. Research on legal legitimacy explains compliance through attitudes toward law while assuming the referent is the same for everyone asked; if "law" means different things to different people, measured variation in legitimacy conflates variation in attitude with variation in referent. The current programme follows from that: cognitive sociology supplies the theory of what differs — schemas, unevenly distributed — and computational methods supply the means to measure it.
+**Selected works**
+
+- [Near-repeat victimization across urban morphologies](https://doi.org/10.1016/j.jcrimjus.2025.102551) — *Journal of Criminal Justice*, 2026
+- [Patterns of CCTV placement in four European capitals](https://doi.org/10.1007/s42001-024-00323-1) — *Journal of Computational Social Science*, 2024
+- [Russian Crime Victimization Survey, 2018–2024](https://dx.doi.org/10.2139/ssrn.6418058) — open dataset, SSRN
 
 ## Education
 
