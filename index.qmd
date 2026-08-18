@@ -53,55 +53,42 @@ Empirically, I work across NLP and embeddings, silicon sampling, survey design, 
 
 **How this fits together?** My first publication, in 2020, was a review of Eugen Ehrlich on living law — the question behind it was where law exists outside the statute book. The several years of work that followed, on policing, surveillance and victimization, were not driven by an interest in crime as such: crime is where classification is dense, consequential and recorded, which makes it observable. That work produced a methodological objection. Research on legal legitimacy explains compliance through attitudes toward law while assuming the referent is the same for everyone asked; if "law" means different things to different people, measured variation in legitimacy conflates variation in attitude with variation in referent. The current programme follows from that: cognitive sociology supplies the theory of what differs — schemas, unevenly distributed — and computational methods supply the means to measure it.
 
-### Education
+## Education
 
-**Professional Certificate Programme, Applied Data Science**, European University at Saint Petersburg with Yandex School of Data Analysis — Sep 2020 – Jul 2021
-*Full-tuition merit scholarship, awarded to top-performing admitted students.* Final project: an application recognising text in photographs of archival Jewish gravestones, built for historical research; project manager of the team and ML-developer.
+| Degree | Institution | Period |
+|---|---|---|
+| **Professional Certificate Programme, Applied Data Science** [Full-tuition merit scholarship, awarded to top-performing admitted students. Final project: an application recognising text in photographs of archival Jewish gravestones, built for historical research; project manager of the team and ML developer.]{.table-note} | European University at Saint Petersburg × Yandex School of Data Analysis | 2020–2021 |
+| **M.A., Sociology** [Full-tuition merit scholarship, awarded to top-performing admitted students. Thesis: *Street-Level Security: Managerial Logics of Safety and Urban Video Surveillance Systems in Small Cities and Megacities* — a qualitative study of camera monitoring centres, with an analysis of Moscow placement patterns using LASSO regularization and complementary log-log regression.]{.table-note} | European University at Saint Petersburg | 2018–2020 |
+| **B.A., Russian History** [Admission on a fully state-funded place, awarded competitively by entrance-examination results. Capstone: *The Political Activity of Regional Soviets of People's Deputies in Western Siberia, 1991–1993*.]{.table-note} | Novosibirsk State University | 2013–2017 |
 
-**M.A., Sociology**, European University at Saint Petersburg — Sep 2018 – Aug 2020
-*Full-tuition merit scholarship, awarded to top-performing admitted students.* Thesis: *"Street-Level Security: Managerial Logics of Safety and Urban Video Surveillance Systems in Small Cities and Megacities."* Qualitative study of camera monitoring centres, combined with an analysis of Moscow placement patterns using LASSO regularization and complementary log-log regression.
+## Career
 
-**B.A., Russian History**, Novosibirsk State University — Sep 2013 – Aug 2017
-*Admission on a fully state-funded place, awarded competitively by entrance-examination results.* Capstone: *"The Political Activity of Regional Soviets of People's Deputies in Western Siberia, 1991–1993."*
+| Role | Organisation | Period |
+|---|---|---|
+| **Research Director** | Kazakhstan Sociology Lab, Astana | 2023 – present |
+| **Research Fellow** [Remote since 2022.]{.table-note} | Institute for the Rule of Law, European University at Saint Petersburg | 2020 – present |
+| **Research Fellow, then Research Director** | MIND, Maqsut Narikbayev University, Astana | 2024–2025 |
+| **Visiting Researcher** | Nazarbayev University, Astana | 2022–2023 |
+| **Research Assistant** [Intern from 2018.]{.table-note} | Institute for the Rule of Law, EUSP | 2019–2020 |
+| **Intern** *(interviewer and analyst)* [Academic sociological expedition to the Middle Volga — Nizhny Novgorod oblast, Mari El and Tatarstan — directed by Evgeni Varshaver and Anna Rocheva.]{.table-note} | RANEPA | 2018 |
+| **Intern** *(interviewer and analyst)* [Student sociological expedition to Armenia, Gegharkunik province, directed by Evgeni Varshaver and Anna Rocheva.]{.table-note} | RANEPA | 2016 |
+| **Intern** *(interviewer and analyst)* [Sociological expedition on zoning in monotowns, Kimry, Tver oblast.]{.table-note} | Vysokovsky Graduate School of Urbanism, HSE University | 2015 |
 
-### Career
-
-**Research Director**, Kazakhstan Sociology Lab, Astana — 2023 – present
-
-**Research Fellow**, Institute for the Rule of Law, European University at Saint Petersburg — 2020 – present
-*Remote since 2022.*
-
-**Research Fellow, then Research Director**, MIND, Maqsut Narikbayev University, Astana — 2024–2025
-
-**Visiting Researcher**, Nazarbayev University, Astana — 2022–2023
-
-**Research Assistant**, Institute for the Rule of Law, EUSP — 2019–2020
-*Intern from 2018.*
-
-**Interviewer and analyst**, academic sociological expedition to the Middle Volga — 2018
-Nizhny Novgorod oblast, Mari El and Tatarstan, directed by Evgeni Varshaver and Anna Rocheva, RANEPA.
-
-**Interviewer and analyst**, student sociological expedition to Armenia — 2016
-Gegharkunik province, directed by Evgeni Varshaver and Anna Rocheva, RANEPA.
-
-**Interviewer and analyst**, sociological expedition on zoning in monotowns — 2015
-Kimry, Tver oblast, run by the Vysokovsky Graduate School of Urbanism, HSE University.
-
-### Grants & awards
+## Grants & awards
 
 **Research grant no. BR28713139**, Ministry of Science and Higher Education of the Republic of Kazakhstan — 2025–2027
 *"Computational Social Science: New Horizons in Methodology and Evidence-Based Policy."* Core team member.
 
 **Vladimir Potanin Scholarship** — 2019–2020
-Competitive national scholarship for master's students.
+Merit-based national scholarship, awarded competitively to master's students.
 
-### Other
+## Other
 
 **EUSP R-meetup group** — 2020–2022. *Organiser.*
 
 **President, University Student Council**, European University at Saint Petersburg — 2018–2019.
 
-### Currently working on
+## Currently working on
 
 - **Schemas of law and order** — testing whether "law," "rule" and "right" function as separate cognitive schemas, using European Social Survey data and the text of citizens' complaints to government bodies.
 - **Prosody and the structure of talk about crime** — an automated pipeline (WhisperX, forced alignment, pyannote diarisation, instrumental prosody in Praat, LLM-assisted sequence coding) for conversation-analytic transcription of calls about crime.
