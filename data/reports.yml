@@ -8,6 +8,8 @@
   year: "2025"
   venue: "MIND, Maqsut Narikbayev University"
   note: "in Russian"
+  thumbnail: assets/figures/pubs/readability-legal-acts.png
+  thumbnailAlt: "Scatter plot of Kazakhstani legislative domains on an adapted Flesch reading-ease score against mean dependency length, with War and Peace marked far off the scale as a reference point"
   links:
     - label: report
       icon: report
@@ -18,6 +20,8 @@
   year: "2025"
   venue: "MIND, Maqsut Narikbayev University"
   note: "in Russian"
+  thumbnail: assets/figures/pubs/open-data-kazakhstan.png
+  thumbnailAlt: "Heat map of Kazakhstan's open datasets by policy domain against row count, showing most datasets hold fewer than five rows"
   links:
     - label: report
       icon: report
@@ -28,6 +32,8 @@
   year: "2024"
   venue: "MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab"
   note: "in Russian"
+  thumbnail: assets/figures/pubs/crime-place.png
+  thumbnailAlt: "Paired hex-bin maps of Astana showing Gi statistic hot and cold spots per 1,000 residents, for non-serious theft and for violent crime"
   links:
     - label: report
       icon: report
@@ -38,6 +44,8 @@
   year: "2024"
   venue: "MIND, Maqsut Narikbayev University"
   note: "in Russian"
+  thumbnail: assets/figures/pubs/inspection-supervision.png
+  thumbnailAlt: "Bar chart comparing the sectoral distribution of registered firms against planned inspections in 2022, 2023 and 2024, with education and healthcare heavily over-inspected"
   links:
     - label: report
       icon: report

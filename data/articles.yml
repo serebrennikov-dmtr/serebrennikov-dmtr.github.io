@@ -3,6 +3,8 @@
   year: "forthcoming 2026"
   venue: "Russian Politics"
   publisher: "Brill"
+  thumbnail: assets/figures/pubs/surveillance-as-governance.png
+  thumbnailAlt: "Year-on-year growth in Moscow CCTV cameras, 2015–2022, split by courtyards, entrance doors and public spaces"
   links:
     - label: code
       icon: code
@@ -19,6 +21,8 @@
   year: "2026"
   venue: "Journal of Criminal Justice"
   detail: "102, 102551"
+  thumbnail: assets/figures/pubs/near-repeat-almaty.png
+  thumbnailAlt: "Map of Almaty showing crime density as a grey gradient over outlined urban clusters: detached housing, apartment blocks, parks and industrial areas"
   links:
     - label: paper
       icon: paper
@@ -28,6 +32,8 @@
   authors: "Serebrennikov, D., Skougarevskiy, D."
   year: "2024"
   venue: "Journal of Computational Social Science"
+  thumbnail: assets/figures/pubs/tale-of-four-cities.png
+  thumbnailAlt: "Dot plot of mean SHAP values for Brussels, ranking environmental features such as bus stops, parking and buildings by their effect on camera placement"
   links:
     - label: paper
       icon: paper
@@ -71,6 +77,8 @@
   year: "2023"
   venue: "Russian Sociological Review"
   detail: "22(2), 179–206"
+  thumbnail: assets/figures/pubs/victims-of-their-own-fear.png
+  thumbnailAlt: "Distribution of the fear-of-crime index from 1 to 10, comparing two groups whose curves diverge at the low end and converge above 5"
   note: "in Russian"
   links:
     - label: paper
@@ -82,6 +90,8 @@
   year: "2023"
   venue: "The Journal of Social Policy Studies"
   detail: "21(1), 7–24"
+  thumbnail: assets/figures/pubs/street-level-algorithm.png
+  thumbnailAlt: "Weekly bar chart, May 2020 to January 2021, of the gap between standardised app review counts and COVID-19 case counts across two pandemic waves"
   note: "in Russian"
   links:
     - label: paper

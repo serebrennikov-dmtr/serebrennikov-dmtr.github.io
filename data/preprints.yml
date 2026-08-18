@@ -2,6 +2,8 @@
   authors: "Kuchakov, R., Serebrennikov, D., Bobrikov, D., Knorre, A., Skougarevskiy, D."
   year: "2026"
   venue: "SSRN"
+  thumbnail: assets/figures/pubs/rcvs-pooled.png
+  thumbnailAlt: "Victimization rates in Russia for 2018, 2021 and 2024, comparing survey estimates against police-recorded data for all victims and for victims with physical or property damage"
   links:
     - label: paper
       icon: paper
@@ -12,6 +14,8 @@
   year: "2026"
   venue: "SocArXiv"
   note: "in Russian"
+  thumbnail: assets/figures/pubs/what-is-a-victim.png
+  thumbnailAlt: "Two-by-two typology crossing self-identification as a victim with social recognition as one, yielding acknowledged, ascribed, rejected and non-victim categories"
   links:
     - label: preprint
       icon: paper
