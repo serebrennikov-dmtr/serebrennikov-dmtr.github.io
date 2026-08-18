@@ -85,9 +85,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-publisher','listing-links','listing-note','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-publisher','listing-thumbnail','listing-thumbnailAlt','listing-links','listing-note','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-publisher","listing-links","listing-note","listing-detail"],
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-publisher","listing-thumbnail","listing-thumbnailAlt","listing-links","listing-note","listing-detail"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -113,9 +113,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-links','listing-note',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-thumbnail','listing-thumbnailAlt','listing-links','listing-note',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-links","listing-note"],
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-thumbnail","listing-thumbnailAlt","listing-links","listing-note"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -141,9 +141,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-note','listing-links','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-note','listing-thumbnail','listing-thumbnailAlt','listing-links','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-note","listing-links","listing-detail"],
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-note","listing-thumbnail","listing-thumbnailAlt","listing-links","listing-detail"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -210,7 +210,11 @@ window.Quarto = {
 
 <meta property="og:title" content="Publications – Dmitrii Serebrennikov">
 <meta property="og:description" content="Computational social scientist working on legal culture and cognition.">
+<meta property="og:image" content="https://serebrennikov-dmtr.github.io/assets/figures/pubs/surveillance-as-governance.png">
 <meta property="og:site_name" content="Dmitrii Serebrennikov">
+<meta property="og:image:alt" content="Year-on-year growth in Moscow CCTV cameras, 2015–2022, split by courtyards, entrance doors and public spaces">
+<meta property="og:image:height" content="389">
+<meta property="og:image:width" content="496">
 </head>
 
 <body class="floating nav-fixed quarto-light">
@@ -303,7 +307,7 @@ window.Quarto = {
 <section id="peer-reviewed-articles" class="level2">
 <h2 class="anchored" data-anchor-id="peer-reviewed-articles">Peer-reviewed articles</h2>
 <div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
-<div class="pub-entry">
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment
@@ -317,6 +321,9 @@ Surveillance as Governance: Policing Effectiveness and Political Control in the 
 <div class="pub-links">
 <a href="https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 9l-3 3 3 3"></path><path d="M16 9l3 3-3 3"></path><path d="M13.5 7l-3 10"></path></svg>code</a>
 </div>
+</div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/surveillance-as-governance.png" alt="Year-on-year growth in Moscow CCTV cameras, 2015–2022, split by courtyards, entrance doors and public spaces">
 </div>
 </div>
 <div class="pub-entry">
@@ -332,7 +339,7 @@ Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanatio
 </div>
 </div>
 </div>
-<div class="pub-entry">
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 What’s Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan
@@ -347,8 +354,11 @@ What’s Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization 
 <a href="https://doi.org/10.1016/j.jcrimjus.2025.102551"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
 </div>
 </div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/near-repeat-almaty.png" alt="Map of Almaty showing crime density as a grey gradient over outlined urban clusters: detached housing, apartment blocks, parks and industrial areas">
 </div>
-<div class="pub-entry">
+</div>
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement
@@ -362,6 +372,9 @@ A Tale of Four Cities: Exploring Security Through Environmental Characteristics 
 <div class="pub-links">
 <a href="https://doi.org/10.1007/s42001-024-00323-1"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
 </div>
+</div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/tale-of-four-cities.png" alt="Dot plot of mean SHAP values for Brussels, ranking environmental features such as bus stops, parking and buildings by their effect on camera placement">
 </div>
 </div>
 <div class="pub-entry">
@@ -412,7 +425,7 @@ Infrastructure as a Camera Obscura of Social Classifications: Urban Video Survei
 </div>
 </div>
 </div>
-<div class="pub-entry">
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 Victims of Their Own Fear: Perceived Safety and Crime Victim Experience in Russia
@@ -427,8 +440,11 @@ Verkeev, A., <strong>Serebrennikov, D.</strong>
 <a href="https://doi.org/10.17323/1728-192x-2023-2-179-206"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
 </div>
 </div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/victims-of-their-own-fear.png" alt="Distribution of the fear-of-crime index from 1 to 10, comparing two groups whose curves diverge at the low end and converge above 5">
 </div>
-<div class="pub-entry">
+</div>
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 “Street-Level Algorithm”: Two Styles of Automated Law Enforcement in the Moscow “Social Monitoring” Application
@@ -442,6 +458,9 @@ Verkeev, A., <strong>Serebrennikov, D.</strong>
 <div class="pub-links">
 <a href="https://doi.org/10.17323/727-0634-2023-21-1-7-24"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
 </div>
+</div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/street-level-algorithm.png" alt="Weekly bar chart, May 2020 to January 2021, of the gap between standardised app review counts and COVID-19 case counts across two pandemic waves">
 </div>
 </div>
 <div class="pub-entry">
@@ -495,7 +514,7 @@ Field Experiments and the Rubin Causal Model: A Review of Approaches and Current
 <section id="preprints" class="level2">
 <h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
 <div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
-<div class="pub-entry">
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 Russian Crime Victimization Survey: Pooled Cross-Sections and a Longitudinal Panel, 2018–2024
@@ -510,8 +529,11 @@ Kuchakov, R., <strong>Serebrennikov, D.</strong>, Bobrikov, D., Knorre, A., Skou
 <a href="https://dx.doi.org/10.2139/ssrn.6418058"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
 </div>
 </div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/rcvs-pooled.png" alt="Victimization rates in Russia for 2018, 2021 and 2024, comparing survey estimates against police-recorded data for all victims and for victims with physical or property damage">
 </div>
-<div class="pub-entry">
+</div>
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 What Is a Victim? Conceptualizing Victimization in Surveys
@@ -525,6 +547,9 @@ Kuchakov, R., <strong>Serebrennikov, D.</strong>
 <div class="pub-links">
 <a href="https://osf.io/preprints/socarxiv/k8yz7"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>preprint</a>
 </div>
+</div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/what-is-a-victim.png" alt="Two-by-two typology crossing self-identification as a victim with social recognition as one, yielding acknowledged, ascribed, rejected and non-victim categories">
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -546,7 +571,7 @@ Functional Communication in the Unified Kazakhstan Complaint Service: Text Analy
 </div>
 </div>
 </div>
-<div class="pub-entry">
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations
@@ -561,8 +586,11 @@ Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguis
 <a href="https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
 </div>
 </div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/readability-legal-acts.png" alt="Scatter plot of Kazakhstani legislative domains on an adapted Flesch reading-ease score against mean dependency length, with War and Peace marked far off the scale as a reference point">
 </div>
-<div class="pub-entry">
+</div>
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan
@@ -577,8 +605,11 @@ Nurgazin, A., <strong>Serebrennikov, D.</strong>
 <a href="https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
 </div>
 </div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/open-data-kazakhstan.png" alt="Heat map of Kazakhstan's open datasets by policy domain against row count, showing most datasets hold fewer than five rows">
 </div>
-<div class="pub-entry">
+</div>
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty
@@ -593,8 +624,11 @@ Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent
 <a href="https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
 </div>
 </div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/crime-place.png" alt="Paired hex-bin maps of Astana showing Gi statistic hot and cold spots per 1,000 residents, for non-serious theft and for violent crime">
 </div>
-<div class="pub-entry">
+</div>
+<div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
 Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium
@@ -608,6 +642,9 @@ Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium
 <div class="pub-links">
 <a href="https://mind.mnu.kz/ru/reports/kontrol-i-nadzor-v-kazahstane-2023-g-konecz-moratoriya/"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
 </div>
+</div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/inspection-supervision.png" alt="Bar chart comparing the sectoral distribution of registered firms against planned inspections in 2022, 2023 and 2024, with education and healthcare heavily over-inspected">
 </div>
 </div>
 <div class="pub-entry">
