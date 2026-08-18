@@ -36,16 +36,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c666dbf5ef3e31e1d97d80ba7287326.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-73b0ff3878a4e6fc3716dc69a6aaefa3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-92747dfcfc16a6337669823afbf88a59.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8def9650288b2ec528f17d6c045c6864.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +75,138 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-publisher','listing-links','listing-note','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-publisher","listing-links","listing-note","listing-detail"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-preprints .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-links','listing-note',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-links","listing-note"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-preprints'] = new List('listing-preprints', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-reports .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-note','listing-links','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-note","listing-links","listing-detail"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-reports'] = new List('listing-reports', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@400&amp;display=swap">
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Publications – Dmitrii Serebrennikov">
 <meta property="og:description" content="Computational social scientist working on legal culture and cognition.">
@@ -135,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#peer-reviewed-articles" id="toc-peer-reviewed-articles" class="nav-link active" data-scroll-target="#peer-reviewed-articles">Peer-reviewed articles</a></li>
-  <li><a href="#preprints-and-datasets" id="toc-preprints-and-datasets" class="nav-link" data-scroll-target="#preprints-and-datasets">Preprints and datasets</a></li>
+  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
   <li><a href="#selected-policy-reports" id="toc-selected-policy-reports" class="nav-link" data-scroll-target="#selected-policy-reports">Selected policy reports</a></li>
   <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
   </ul>
@@ -169,33 +302,345 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="peer-reviewed-articles" class="level2">
 <h2 class="anchored" data-anchor-id="peer-reviewed-articles">Peer-reviewed articles</h2>
-<p><strong>Serebrennikov, D.</strong>, Minaeva, E., Ross, E. (forthcoming 2026). Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment. <em>Russian Politics</em>. Brill.</p>
-<p><strong>Serebrennikov, D.</strong>, Varshaver, E. (forthcoming 2026). Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanation. <em>Sociology of Power</em>. (in Russian)</p>
-<p><strong>Serebrennikov, D.</strong>, Kalkanbay, S. (2026). What’s Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan. <em>Journal of Criminal Justice</em>, 102, 102551. — <a href="https://doi.org/10.1016/j.jcrimjus.2025.102551">doi.org/10.1016/j.jcrimjus.2025.102551</a></p>
-<p><strong>Serebrennikov, D.</strong>, Skougarevskiy, D. (2024). A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement. <em>Journal of Computational Social Science</em>. — <a href="https://doi.org/10.1007/s42001-024-00323-1">doi.org/10.1007/s42001-024-00323-1</a></p>
-<p><strong>Serebrennikov, D.</strong> (2023). From Call to Emergency Card: Seeking “112” Operator Discretion. <em>Forum for Anthropology and Culture</em>, 59, 130–152. (in Russian) — <a href="https://doi.org/10.31250/1815-8870-2023-19-59-130-152">doi.org/10.31250/1815-8870-2023-19-59-130-152</a></p>
-<p><strong>Serebrennikov, D.</strong> (2023). Gaze Ex Machina: A Brief History of Police CCTV Surveillance in Russia and Western Countries. <em>Urban Studies and Practices</em>, 8(3), 101–112. (in Russian) — <a href="https://doi.org/10.17323/usp832023101-112">doi.org/10.17323/usp832023101-112</a></p>
-<p><strong>Serebrennikov, D.</strong> (2023). Infrastructure as a Camera Obscura of Social Classifications: Urban Video Surveillance Systems in Small Cities. <em>Monitoring of Public Opinion</em>, 3. (in Russian) — <a href="https://doi.org/10.14515/monitoring.2023.3.2325">doi.org/10.14515/monitoring.2023.3.2325</a></p>
-<p>Verkeev, A., <strong>Serebrennikov, D.</strong> (2023). Victims of Their Own Fear: Perceived Safety and Crime Victim Experience in Russia. <em>Russian Sociological Review</em>, 22(2), 179–206. (in Russian) — <a href="https://doi.org/10.17323/1728-192x-2023-2-179-206">doi.org/10.17323/1728-192x-2023-2-179-206</a></p>
-<p><strong>Serebrennikov, D.</strong>, Khodjaeva, E., Shepeleva, O. (2023). “Street-Level Algorithm”: Two Styles of Automated Law Enforcement in the Moscow “Social Monitoring” Application. <em>The Journal of Social Policy Studies</em>, 21(1), 7–24. (in Russian) — <a href="https://doi.org/10.17323/727-0634-2023-21-1-7-24">doi.org/10.17323/727-0634-2023-21-1-7-24</a></p>
-<p>Muravyev, A., Yuldashev, O., <strong>Serebrennikov, D.</strong> (2021). Surveillance Cameras in Cities: Security and Territory. <em>Neprikosnovenny Zapas</em>, 6(140), 26–41. (in Russian)</p>
-<p><strong>Serebrennikov, D.</strong>, Kuzmina, Yu. (2021). Field Experiments and the Rubin Causal Model: A Review of Approaches and Current Research. <em>Journal of Economic Sociology</em>, 22(4), 117–139. (in Russian) — <a href="https://doi.org/10.17323/1726-3247-2021-4-117-139">doi.org/10.17323/1726-3247-2021-4-117-139</a></p>
-<p><strong>Serebrennikov, D.</strong> (2020). [Review] Ehrlich, E., Fundamental Principles of the Sociology of Law. <em>Sotsiologicheskiy Zhurnal</em>, 26(1), 183–189. (in Russian) — <a href="https://doi.org/10.19181/socjour.2020.26.1.7059">doi.org/10.19181/socjour.2020.26.1.7059</a></p>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Minaeva, E., Ross, E.
+</div>
+<div class="pub-meta">
+<em>Russian Politics</em> · forthcoming 2026 · Brill
+</div>
+<div class="pub-links">
+<a href="https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 9l-3 3 3 3"></path><path d="M16 9l3 3-3 3"></path><path d="M13.5 7l-3 10"></path></svg>code</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanation
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Varshaver, E.
+</div>
+<div class="pub-meta">
+<em>Sociology of Power</em> · forthcoming 2026 · in Russian
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+What’s Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Kalkanbay, S.
+</div>
+<div class="pub-meta">
+<em>Journal of Criminal Justice</em> · 102, 102551 · 2026
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.1016/j.jcrimjus.2025.102551"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Skougarevskiy, D.
+</div>
+<div class="pub-meta">
+<em>Journal of Computational Social Science</em> · 2024
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.1007/s42001-024-00323-1"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+From Call to Emergency Card: Seeking “112” Operator Discretion
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>Forum for Anthropology and Culture</em> · 59, 130–152 · 2023 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.31250/1815-8870-2023-19-59-130-152"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Gaze Ex Machina: A Brief History of Police CCTV Surveillance in Russia and Western Countries
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>Urban Studies and Practices</em> · 8(3), 101–112 · 2023 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.17323/usp832023101-112"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Infrastructure as a Camera Obscura of Social Classifications: Urban Video Surveillance Systems in Small Cities
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>Monitoring of Public Opinion</em> · 3 · 2023 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.14515/monitoring.2023.3.2325"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Victims of Their Own Fear: Perceived Safety and Crime Victim Experience in Russia
+</div>
+<div class="pub-authors">
+Verkeev, A., <strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>Russian Sociological Review</em> · 22(2), 179–206 · 2023 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.17323/1728-192x-2023-2-179-206"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+“Street-Level Algorithm”: Two Styles of Automated Law Enforcement in the Moscow “Social Monitoring” Application
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Khodjaeva, E., Shepeleva, O.
+</div>
+<div class="pub-meta">
+<em>The Journal of Social Policy Studies</em> · 21(1), 7–24 · 2023 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.17323/727-0634-2023-21-1-7-24"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Surveillance Cameras in Cities: Security and Territory
+</div>
+<div class="pub-authors">
+Muravyev, A., Yuldashev, O., <strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>Neprikosnovenny Zapas</em> · 6(140), 26–41 · 2021 · in Russian
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Field Experiments and the Rubin Causal Model: A Review of Approaches and Current Research
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Kuzmina, Yu.
+</div>
+<div class="pub-meta">
+<em>Journal of Economic Sociology</em> · 22(4), 117–139 · 2021 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.17323/1726-3247-2021-4-117-139"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+[Review] Ehrlich, E., Fundamental Principles of the Sociology of Law
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>Sotsiologicheskiy Zhurnal</em> · 26(1), 183–189 · 2020 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.19181/socjour.2020.26.1.7059"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
-<section id="preprints-and-datasets" class="level2">
-<h2 class="anchored" data-anchor-id="preprints-and-datasets">Preprints and datasets</h2>
-<p>Kuchakov, R., <strong>Serebrennikov, D.</strong>, Bobrikov, D., Knorre, A., Skougarevskiy, D. (2026). Russian Crime Victimization Survey: Pooled Cross-Sections and a Longitudinal Panel, 2018–2024. <em>SSRN</em>. — <a href="https://dx.doi.org/10.2139/ssrn.6418058">dx.doi.org/10.2139/ssrn.6418058</a></p>
-<p>Kuchakov, R., <strong>Serebrennikov, D.</strong> (2026). What Is a Victim? Conceptualizing Victimization in Surveys. <em>SocArXiv</em>. — <a href="https://osf.io/preprints/socarxiv/k8yz7">osf.io/preprints/socarxiv/k8yz7</a></p>
+<section id="preprints" class="level2">
+<h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
+<div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Russian Crime Victimization Survey: Pooled Cross-Sections and a Longitudinal Panel, 2018–2024
+</div>
+<div class="pub-authors">
+Kuchakov, R., <strong>Serebrennikov, D.</strong>, Bobrikov, D., Knorre, A., Skougarevskiy, D.
+</div>
+<div class="pub-meta">
+<em>SSRN</em> · 2026
+</div>
+<div class="pub-links">
+<a href="https://dx.doi.org/10.2139/ssrn.6418058"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+What Is a Victim? Conceptualizing Victimization in Surveys
+</div>
+<div class="pub-authors">
+Kuchakov, R., <strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>SocArXiv</em> · 2026 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://osf.io/preprints/socarxiv/k8yz7"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>preprint</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="selected-policy-reports" class="level2">
 <h2 class="anchored" data-anchor-id="selected-policy-reports">Selected policy reports</h2>
-<p><strong>Serebrennikov, D.</strong>, Yergalieva, N., Nurgazin, A., Kalkanbay, S. (2026). Functional Communication in the Unified Kazakhstan Complaint Service: Text Analysis. MIND Analytical Reports, Maqsut Narikbayev University.</p>
-<p><strong>Serebrennikov, D.</strong>, Didikin, A., Bektibaeva, O. (2025). Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations. (in Russian) — <a href="https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/">report</a></p>
-<p>Nurgazin, A., <strong>Serebrennikov, D.</strong> (2025). Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan. MIND, Maqsut Narikbayev University. (in Russian) — <a href="https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf">report</a></p>
-<p><strong>Serebrennikov, D.</strong>, Kusmanova, A. (2024). Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty. MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab. (in Russian) — <a href="https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html">report</a></p>
-<p><strong>Serebrennikov, D.</strong> (2024). Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium. MIND, Maqsut Narikbayev University. (in Russian) — <a href="https://mind.mnu.kz/ru/reports/kontrol-i-nadzor-v-kazahstane-2023-g-konecz-moratoriya/">report</a></p>
-<p>Nikitina, D., Khodjaeva, E., <strong>Serebrennikov, D.</strong> (2024). How and by Whom Forensic Expertise Is Made: Experts in the Context of Interagency Interaction. With contributions from S. Rumyantsev and A. Belyanskaya. Saint Petersburg: Institute for the Rule of Law, European University at Saint Petersburg. (in Russian)</p>
-<p><strong>Serebrennikov, D.</strong>, Titaev, K. (2022). Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021). Institute for the Rule of Law, European University at Saint Petersburg. (in Russian) — <a href="https://enforce.spb.ru/images/rcvs_2021_block_online.pdf">report</a></p>
+<div id="listing-reports" class="quarto-listing quarto-listing-container-custom">
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Functional Communication in the Unified Kazakhstan Complaint Service: Text Analysis
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Yergalieva, N., Nurgazin, A., Kalkanbay, S.
+</div>
+<div class="pub-meta">
+<em>MIND Analytical Reports, Maqsut Narikbayev University</em> · 2026
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Didikin, A., Bektibaeva, O.
+</div>
+<div class="pub-meta">
+<em>MIND, Maqsut Narikbayev University</em> · 2025 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan
+</div>
+<div class="pub-authors">
+Nurgazin, A., <strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>MIND, Maqsut Narikbayev University</em> · 2025 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Kusmanova, A.
+</div>
+<div class="pub-meta">
+<em>MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab</em> · 2024 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>MIND, Maqsut Narikbayev University</em> · 2024 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://mind.mnu.kz/ru/reports/kontrol-i-nadzor-v-kazahstane-2023-g-konecz-moratoriya/"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+How and by Whom Forensic Expertise Is Made: Experts in the Context of Interagency Interaction
+</div>
+<div class="pub-authors">
+Nikitina, D., Khodjaeva, E., <strong>Serebrennikov, D.</strong>
+</div>
+<div class="pub-meta">
+<em>Institute for the Rule of Law, European University at Saint Petersburg</em> · with contributions from S. Rumyantsev and A. Belyanskaya · 2024 · in Russian
+</div>
+</div>
+</div>
+<div class="pub-entry">
+<div class="pub-body">
+<div class="pub-title">
+Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021)
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Titaev, K.
+</div>
+<div class="pub-meta">
+<em>Institute for the Rule of Law, European University at Saint Petersburg</em> · 2022 · in Russian
+</div>
+<div class="pub-links">
+<a href="https://enforce.spb.ru/images/rcvs_2021_block_online.pdf"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 17v-4M12 17v-6M15 17v-2"></path></svg>report</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="datasets" class="level2">
 <h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
@@ -205,6 +650,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Serebrennikov, D.</strong> Spatial Data on Socio-Economic Characteristics in Almaty. researchdata.kz, 2026. — <a href="https://researchdata.kz/data/218">researchdata.kz/data/218</a></li>
 <li><strong>Serebrennikov, D.</strong>, Kalkanbay, S. Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026. researchdata.kz, 2026. — <a href="https://researchdata.kz/data/162">researchdata.kz/data/162</a></li>
 </ul>
+
 
 
 </section>
@@ -621,7 +1067,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026, built with <a href="https://quarto.org" target="_blank">Quarto</a> and the <a href="https://mdwm.org/quarto-pressmark/" target="_blank">Pressmark</a> theme</p>
+<p>© 2026, built with <a href="https://quarto.org" target="_blank">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
