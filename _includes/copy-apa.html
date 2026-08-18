@@ -1,0 +1,46 @@
+<script>
+document.addEventListener("click", function (event) {
+  const button = event.target.closest(".pub-cite");
+  if (!button) return;
+
+  const citation = button.getAttribute("data-apa");
+  if (!citation) return;
+
+  const label = button.lastChild;
+  const original = label.textContent;
+
+  const flash = function (text) {
+    label.textContent = text;
+    button.classList.add("copied");
+    setTimeout(function () {
+      label.textContent = original;
+      button.classList.remove("copied");
+    }, 1600);
+  };
+
+  // execCommand still works where the async API refuses: an unfocused
+  // document, a permissions policy, or a plain-http preview.
+  const legacyCopy = function () {
+    const scratch = document.createElement("textarea");
+    scratch.value = citation;
+    scratch.setAttribute("readonly", "");
+    scratch.style.position = "fixed";
+    scratch.style.top = "-1000px";
+    document.body.appendChild(scratch);
+    scratch.select();
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+    document.body.removeChild(scratch);
+    return ok;
+  };
+
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(citation).then(
+      function () { flash("copied"); },
+      function () { flash(legacyCopy() ? "copied" : "copy failed"); }
+    );
+  } else {
+    flash(legacyCopy() ? "copied" : "copy failed");
+  }
+});
+</script>

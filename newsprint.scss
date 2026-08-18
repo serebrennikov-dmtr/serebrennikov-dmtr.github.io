@@ -15,7 +15,8 @@
 
 $paper:        #FAF9F7; // page background — near-white so exported figures sit flush
 $paper-shade:  #F1EFEA; // code blocks, subtle fills
-$ink:          #17140F; // body text
+$ink:          #26221C; // body text — softened off pure black, which reads heavy at size
+$ink-strong:   #17140F; // headings
 $muted:        #6B6659; // metadata, captions
 $rule:         #DAD6CE; // hairlines
 $accent:       #8B2E3C; // links, resource icons
@@ -30,19 +31,19 @@ $font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, m
 
 $font-family-base:  $font-family-text;
 $headings-font-family: $font-family-headings;
-$font-size-base:    1.0625rem; // 17px
+$font-size-base:    0.95rem;
 $font-weight-base:  400;
-$line-height-base:  1.65;
+$line-height-base:  1.7;
 $font-size-small:   0.85em;
-$headings-font-weight: 400;
-$headings-line-height: 1.18;
+$headings-font-weight: 350; // Newsreader is variable; large sizes want a lighter cut
+$headings-line-height: 1.2;
 
 // ----------------------------------------------------------------------------
 // BOOTSTRAP OVERRIDES
 
 $body-bg:        $paper;
 $body-color:     $ink;
-$headings-color: $ink;
+$headings-color: $ink-strong;
 $link-color:     $accent;
 $link-hover-color: $accent;
 $border-color:   $rule;
@@ -76,17 +77,20 @@ $grid-margin-width:  260px !default;
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
 }
 
 h1, h2, h3, h4 {
-  letter-spacing: -0.01em;
+  letter-spacing: -0.005em;
+  font-optical-sizing: auto;
 }
 
-h1 { font-size: 2.3rem; margin-bottom: 0.4em; }
-h2 { font-size: 1.55rem; margin-top: 2.2rem; margin-bottom: 0.7rem; }
-h3 { font-size: 1.2rem;  margin-top: 1.8rem; margin-bottom: 0.5rem; }
+// Weight drops as size rises: at display sizes a 400 serif reads as bold.
+h1 { font-size: 2.15rem; font-weight: 330; margin-bottom: 0.4em; }
+h2 { font-size: 1.45rem; font-weight: 380; margin-top: 2.2rem; margin-bottom: 0.7rem; }
+h3 { font-size: 1.12rem; font-weight: 450; margin-top: 1.8rem; margin-bottom: 0.5rem; }
 
-p { margin-bottom: 1.1rem; }
+p { margin-bottom: 1.05rem; }
 
 a {
   text-decoration-thickness: 1px;
@@ -114,24 +118,39 @@ blockquote {
 
 .navbar {
   background-color: $paper;
-  border-bottom: 1px solid $ink;
-  min-height: 64px;
+  border-bottom: 1px solid $ink-strong;
+  min-height: 82px;
   font-family: $font-family-monospace;
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
+  // Quarto gives the brand and the link list different box heights, which
+  // leaves the name sitting visibly below the menu. Centre both explicitly.
+  .navbar-container,
+  .navbar-brand-container,
+  .navbar-brand,
+  .navbar-collapse,
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar-brand { padding-top: 0; padding-bottom: 0; }
+
   .navbar-title {
     font-family: $font-family-headings;
-    font-size: 1.15rem;
-    font-weight: 500;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
     letter-spacing: 0;
     text-transform: none;
-    color: $ink;
+    color: $ink-strong;
   }
 
   .nav-link {
     color: $muted !important;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
     &:hover, &.active { color: $accent !important; }
   }
 }
@@ -314,6 +333,26 @@ code:not(.sourceCode) {
   }
 
   i, svg { margin-right: 0.25em; }
+}
+
+// "Copy APA" sits in the same row as the resource links and matches them,
+// but is a button, so its resting state is quieter than a real link.
+.pub-cite {
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  color: $muted;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+
+  svg { margin-right: 0.25em; }
+
+  &:hover { color: $accent; }
+  &.copied { color: $accent; }
 }
 
 .pub-thumb {

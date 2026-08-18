@@ -27,7 +27,11 @@ The programme is blended online and offline, structured across four modules from
 
 ## Summer Schools
 
-[AIM-CC 2026](https://sociologylab.kz/aim-cc26) — "AI & Methods in Computational Communication," 8–16 August 2026, Astana. A young-scholar conference and research school co-organised by Kazakhstan Sociology Lab, Nazarbayev University and the International Communication Association, funded by Kazakhstan's Ministry of Science and Higher Education. Seven international instructors took part. *Co-organiser.*
+| | School | Host | Role | Date |
+|---|---|---|---|---|
+| [CSS]{.course-icon} | [AIM-CC 2026](https://sociologylab.kz/aim-cc26) — AI & Methods in Computational Communication | Kazakhstan Sociology Lab × Nazarbayev University × International Communication Association, Astana | Co-organiser | 2026 |
+
+: A young-scholar conference and research school funded by Kazakhstan's Ministry of Science and Higher Education, with seven international instructors.
 
 ## Workshops and short courses
 

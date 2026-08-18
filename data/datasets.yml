@@ -1,0 +1,27 @@
+- title: "Russian Crime Victimization Survey: Pooled Cross-Sections and a Longitudinal Panel, 2018–2024"
+  authors: "Kuchakov, R., Serebrennikov, D., Bobrikov, D., Knorre, A., Skougarevskiy, D."
+  year: "2026"
+  venue: "Institute for the Rule of Law, European University at Saint Petersburg"
+  detail: "42,572 respondents across three waves, with a 3,456-person panel"
+  links:
+    - label: data
+      icon: data
+      href: "https://dx.doi.org/10.2139/ssrn.6418058"
+
+- title: "Spatial Data on Socio-Economic Characteristics in Almaty"
+  authors: "Serebrennikov, D."
+  year: "2026"
+  venue: "researchdata.kz"
+  links:
+    - label: data
+      icon: data
+      href: "https://researchdata.kz/data/218"
+
+- title: "Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026"
+  authors: "Serebrennikov, D., Kalkanbay, S."
+  year: "2026"
+  venue: "researchdata.kz"
+  links:
+    - label: data
+      icon: data
+      href: "https://researchdata.kz/data/162"
