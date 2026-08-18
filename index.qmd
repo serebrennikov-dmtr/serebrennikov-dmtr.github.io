@@ -15,8 +15,6 @@ format:
 
 <p style="font-family: sans-serif; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; margin-bottom: 0.5em;">Computational social science · Legal culture · Culture &amp; cognition · Criminology · Organizations</p>
 
-*Computational social scientist · legal culture and cognition · Kazakhstan Sociology Lab*
-
 :::
 
 ::: {.column-margin}
@@ -53,20 +51,29 @@ Kazakhstan is a methodologically useful place to ask this. Russian- and Kazakh-s
 
 Empirically, I work across NLP and embeddings, silicon sampling, survey design, spatial statistics and GIS, and explainable machine learning — in R, Python, SQL and QGIS — grounded in more than a hundred in-depth interviews.
 
-### How this fits together
-
-My first publication, in 2020, was a review of Eugen Ehrlich on living law — the question behind it was where law exists outside the statute book. The several years of work that followed, on policing, surveillance and victimization, were not driven by an interest in crime as such: crime is where classification is dense, consequential and recorded, which makes it observable. That work produced a methodological objection. Research on legal legitimacy explains compliance through attitudes toward law while assuming the referent is the same for everyone asked; if "law" means different things to different people, measured variation in legitimacy conflates variation in attitude with variation in referent. The current programme follows from that: cognitive sociology supplies the theory of what differs — schemas, unevenly distributed — and computational methods supply the means to measure it.
+**How this fits together?** My first publication, in 2020, was a review of Eugen Ehrlich on living law — the question behind it was where law exists outside the statute book. The several years of work that followed, on policing, surveillance and victimization, were not driven by an interest in crime as such: crime is where classification is dense, consequential and recorded, which makes it observable. That work produced a methodological objection. Research on legal legitimacy explains compliance through attitudes toward law while assuming the referent is the same for everyone asked; if "law" means different things to different people, measured variation in legitimacy conflates variation in attitude with variation in referent. The current programme follows from that: cognitive sociology supplies the theory of what differs — schemas, unevenly distributed — and computational methods supply the means to measure it.
 
 ### Education
 
 **Professional Certificate Programme, Applied Data Science**, European University at Saint Petersburg with Yandex School of Data Analysis — Sep 2020 – Jul 2021
-*Full-tuition merit scholarship, awarded to top-performing admitted students.* Final project: an application recognising text in photographs of archival Jewish gravestones, built for historical research; project manager of the team.
+*Full-tuition merit scholarship, awarded to top-performing admitted students.* Final project: an application recognising text in photographs of archival Jewish gravestones, built for historical research; project manager of the team and ML-developer.
 
 **M.A., Sociology**, European University at Saint Petersburg — Sep 2018 – Aug 2020
 *Full-tuition merit scholarship, awarded to top-performing admitted students.* Thesis: *"Street-Level Security: Managerial Logics of Safety and Urban Video Surveillance Systems in Small Cities and Megacities."* Qualitative study of camera monitoring centres, combined with an analysis of Moscow placement patterns using LASSO regularization and complementary log-log regression.
 
 **B.A., Russian History**, Novosibirsk State University — Sep 2013 – Aug 2017
 *Admission on a fully state-funded place, awarded competitively by entrance-examination results.* Capstone: *"The Political Activity of Regional Soviets of People's Deputies in Western Siberia, 1991–1993."*
+
+### Career
+
+**Research Director**, Kazakhstan Sociology Lab, Astana — 2023 – present
+
+**Research Fellow**, Institute for the Rule of Law, European University at Saint Petersburg — 2020 – present
+*Remote since 2022; research assistant, 2019–2020.*
+
+**Research Fellow, then Research Director**, MIND, Maqsut Narikbayev University, Astana — 2024–2025
+
+**Visiting Researcher**, Nazarbayev University, Astana — 2022–2023
 
 ### Grants & awards
 
@@ -75,6 +82,12 @@ My first publication, in 2020, was a review of Eugen Ehrlich on living law — t
 
 **Vladimir Potanin Scholarship** — 2019–2020
 Competitive national scholarship for master's students.
+
+### Other
+
+**EUSP R-meetup group** — 2020–2022. *Organiser.*
+
+**President, University Student Council**, European University at Saint Petersburg — 2018–2019.
 
 ### Currently working on
 

@@ -1,6 +1,5 @@
 ---
 title: "Talks & Events"
-description: "Conference presentations, schools and keynotes, and selected media."
 toc: true
 toc-location: left
 toc-title: "Talks & Events"
@@ -19,18 +18,6 @@ toc-title: "Talks & Events"
 | Oct 2021 | PhD Academy: Quantitative Methods in Legal Studies | A Tale of 3 Cities: Exploring Environmental Characteristics of CCTV Equipment Placement | Venice International University |
 | Oct 2021 | Legal Diversity and Regional Encounters | Plural Security: Using Urban Security Infrastructure in Russian Small Cities | University of Helsinki *(online)* |
 | Oct 2021 | RC21 | Who Secures This Corner? Spatial Analysis of Street CCTV Location as a Tool for Understanding the Splintering of Moscow | Rotterdam, the Netherlands *(online)* |
-
-## Schools, keynotes and organising
-
-[AIM-CC 2026](https://sociologylab.kz/aim-cc26) — "AI & Methods in Computational Communication" · 8–16 August 2026, Astana. Young-scholar conference and research school co-organised by Kazakhstan Sociology Lab, Nazarbayev University and the International Communication Association, funded by Kazakhstan's Ministry of Science and Higher Education, with seven international instructors. *Co-organiser.*
-
-**International Winter School, "Research Practice in Sociology and Social Work for Quality Education and the Promotion of the SDGs in Kazakhstan"** · 17–18 January 2026, Al-Farabi Kazakh National University, Almaty. *Keynote speaker*, "Когнитивный поворот в социальных исследованиях" *(The Cognitive Turn in Social Research)*.
-
-**"Days of the Institute for the Rule of Law in Yerevan"** · 14–16 March 2024. *Lecturer*, "New Surveillance, Old Challenges: Цифровизация работы следствия в России."
-
-**EUSP R-meetup group** · 2020–2022. *Organiser.*
-
-**President, University Student Council, European University at Saint Petersburg** · 2018–2019.
 
 ## Selected media
 
