@@ -12,6 +12,7 @@ toc-title: "Talks & Events"
 | Jul 2026 | Summer School of the Institute for the Rule of Law 2026 | Silicon Sampling: Everything You (Didn't) Want to Know but Were Afraid to Ask; New Respondents, New Design | — |
 | Jun 2025 | ESCAS | What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty | Tashkent |
 | Sep 2024 | DKU International Conference, Central Asia's Transformations | What Kind of Reasons Do People Call the Police? A Study of 200,000 Emergency Calls in a Central Asian Country | Almaty |
+| 2024 | Vectors | Classifying the Safe: Surveillance Cameras as Artifacts of Shared Schemas among District Officials | Moscow School of Social and Economic Sciences *(online)* |
 | Jul 2024 | 8th Global Meeting on Law & Society | Big Data Surveillance à la Russe: Interpreting Changes in the Moscow Investigation Process after Digitalisation | Denver, USA |
 | Jul 2022 | 7th Global Meeting on Law & Society | Fear of Crime in Russia: Evidence from the RCVS 2021 | Lisbon *(online)* |
 | Apr 2022 | Workshop: Algorithmic Governance and Cultures of Policing | Shift or Assimilation? Changes in Daily Moscow Law Enforcement Practices after Digitalization | Oslo Metropolitan University *(online)* |
@@ -22,7 +23,9 @@ toc-title: "Talks & Events"
 
 ## Summer schools
 
-[AIM-CC 2026](https://sociologylab.kz/aim-cc26) — "AI & Methods in Computational Communication," 8–16 August 2026, Astana. A young-scholar conference and research school co-organised by Kazakhstan Sociology Lab, Nazarbayev University and the International Communication Association, funded by Kazakhstan's Ministry of Science and Higher Education. Seven international instructors took part. *Co-organiser.*
+| School | Host | Role | Date |
+|---|---|---|---|
+| [**AIM-CC 2026** — AI & Methods in Computational Communication](https://sociologylab.kz/aim-cc26) [A young-scholar conference and research school funded by Kazakhstan's Ministry of Science and Higher Education. Among the invited speakers were Professor Taha Yasseri of Trinity College Dublin (Ireland), Professor Alexey Bessudnov of the University of Exeter (UK), Professor Miriam Schirmer of the University of Konstanz (Germany) and Başak Taraktaş of Boğaziçi University, along with other leading researchers in the social and computational sciences.]{.table-note} | Kazakhstan Sociology Lab × Nazarbayev University × International Communication Association, Astana | Co-organiser | 2026 |
 
 ## Selected media
 

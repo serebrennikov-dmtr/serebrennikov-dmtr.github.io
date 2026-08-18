@@ -119,27 +119,31 @@ blockquote {
 .navbar {
   background-color: $paper;
   border-bottom: 1px solid $ink-strong;
-  min-height: 82px;
+  min-height: 88px;
   font-family: $font-family-monospace;
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  // Quarto gives the brand and the link list different box heights, which
-  // leaves the name sitting visibly below the menu. Centre both explicitly.
-  .navbar-container,
-  .navbar-brand-container,
-  .navbar-brand,
-  .navbar-collapse,
-  .navbar-nav {
-    align-items: center;
+  // The name is a 26px serif and the menu is a 14px monospace; centring their
+  // boxes still leaves the two texts sitting on different baselines, because
+  // the fonts have different metrics. Align the baselines themselves — but
+  // only once the menu is a row, since below lg it stacks vertically.
+  @media (min-width: 992px) {
+    .navbar-container,
+    .navbar-brand-container,
+    .navbar-brand,
+    .navbar-collapse,
+    .navbar-nav {
+      align-items: baseline;
+    }
   }
 
   .navbar-brand { padding-top: 0; padding-bottom: 0; }
 
   .navbar-title {
     font-family: $font-family-headings;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 0;
@@ -369,6 +373,16 @@ code:not(.sourceCode) {
 // ############################################################################
 // TEACHING
 // ############################################################################
+
+// A descriptive second line inside a table cell — quieter than the title
+// above it, so the cell reads as one entry rather than two.
+.table-note {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.86em;
+  line-height: 1.55;
+  color: $muted;
+}
 
 .course-icon {
   font-family: $font-family-monospace;
