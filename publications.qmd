@@ -1,21 +1,18 @@
 ---
 title: "Publications"
-description: "Peer-reviewed articles, preprints and datasets, and selected reports."
+description: "Peer-reviewed articles, preprints and datasets, selected reports, and data and code."
 toc: true
 toc-location: left
+toc-title: "Publications"
 ---
-
-My published work runs along three lines: legal culture and cognition; surveillance and security infrastructures; and the measurement of crime and victimization. The two flagship pieces are a near-repeat victimization study in Almaty (*Journal of Criminal Justice*) and a comparative study of CCTV placement logics across four cities (*Journal of Computational Social Science*) — both drawing on the same underlying interest in how institutions classify space, risk and people.
-
-![](assets/figures/schema-network.svg){width="70%" fig-alt="Schematic diagram of three overlapping cultural schema clusters, labelled law, rule and right, with unevenly distributed nodes representing individuals."}
 
 ## Peer-reviewed articles
 
-**Serebrennikov, D.**, Minaeva, E., Ross, E. (forthcoming 2026). Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment. *Russian Politics*. Brill. `Scopus Q1`
+**Serebrennikov, D.**, Minaeva, E., Ross, E. (forthcoming 2026). Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment. *Russian Politics*. Brill.
 
-**Serebrennikov, D.**, Varshaver, E. (in press). Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanation. *Sociology of Power*. *(in Russian)*
+**Serebrennikov, D.**, Varshaver, E. (forthcoming 2026). Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanation. *Sociology of Power*. *(in Russian)*
 
-**Serebrennikov, D.**, Kalkanbay, S. (2026). What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan. *Journal of Criminal Justice*, 102, 102551. `Scopus Q1` — [doi.org/10.1016/j.jcrimjus.2025.102551](https://doi.org/10.1016/j.jcrimjus.2025.102551)
+**Serebrennikov, D.**, Kalkanbay, S. (2026). What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan. *Journal of Criminal Justice*, 102, 102551. — [doi.org/10.1016/j.jcrimjus.2025.102551](https://doi.org/10.1016/j.jcrimjus.2025.102551)
 
 **Serebrennikov, D.**, Skougarevskiy, D. (2024). A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement. *Journal of Computational Social Science*. — [doi.org/10.1007/s42001-024-00323-1](https://doi.org/10.1007/s42001-024-00323-1)
 
@@ -59,16 +56,29 @@ Kuchakov, R., **Serebrennikov, D.**, Bobrikov, D., Knorre, A., Skougarevskiy, D.
 
 : The only repeated nationwide victimization survey in Russia, now released as an open dataset: 42,572 pooled respondents across three waves (2018 / 2021 / 2024) plus a 3,456-person longitudinal panel.
 
+Kuchakov, R., **Serebrennikov, D.** (2026). Что такое жертва? Концептуализация виктимизации в опросах. *SocArXiv*. — [osf.io/preprints/socarxiv/k8yz7](https://osf.io/preprints/socarxiv/k8yz7)
+
 ## Selected reports
 
-**Serebrennikov, D.**, Didikin, A., Bektibaeva, O. (2025). Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations. *(in Russian)*
+**Serebrennikov, D.**, Didikin, A., Bektibaeva, O. (2025). Readability of Legal Acts of the Republic of Kazakhstan: A Computational Linguistics Analysis and Practical Recommendations. *(in Russian)* — [report](https://mind.mnu.kz/ru/reports/chitabelnost-pravovyh-aktov-respubliki-kazahstan-analiz-sredstvami-kompyuternoj-lingvistiki-i-prakticheskie-rekomendaczii/)
 
 **Serebrennikov, D.**, Kusmanova, A. (2024). Crime Place Never Changed? Spatial Distribution of Non-Serious Theft and Violent Crime in Astana and Almaty. MIND, Maqsut Narikbayev University, with Kazakhstan Sociology Lab. *(in Russian)* — [report](https://mnu.kz/mind_reports/Serebrennikov_Kusmanova_Hotspots.html)
 
-**Serebrennikov, D.**, Bulatov, B. (2024). "The Criminal Always Returns to the Scene": Testing Near-Repeat Victimization Theory in Astana and Almaty. MIND, Maqsut Narikbayev University. *(in Russian)* — [report](https://mnu.kz/mind_reports/Serebrennikov_Bulatov_NearRep.html)
+Nurgazin, A., **Serebrennikov, D.** (2025). Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan. MIND, Maqsut Narikbayev University. *(in Russian)* — [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)
 
-Nurgalin, A., **Serebrennikov, D.** (2025). Opening the Data: An Assessment of Open Data Availability in the Republic of Kazakhstan. MIND, Maqsut Narikbayev University. *(in Russian)* — [report](https://mnu.kz/mind_reports/Nurgazin_Serebrnnikov_Evaluating_Open_Data_Policy.pdf)
+**Serebrennikov, D.**, Titaev, K. (2022). Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021). Institute for the Rule of Law, European University at Saint Petersburg. *(in Russian)* — [report](https://enforce.spb.ru/images/rcvs_2021_block_online.pdf)
 
-**Serebrennikov, D.**, Titaev, K. (2022). Crime and Victimization in Russia, 2018–2021: Results of the Second Wave of the Russian Crime Victimization Survey (RCVS-2021). Institute for the Rule of Law, European University at Saint Petersburg. *(in Russian)*
+Nikitina, D., Khodjaeva, E., **Serebrennikov, D.** (2024). Как и кем творится судебная экспертиза: эксперты в контексте межведомственных взаимодействий. With contributions from S. Rumyantsev and A. Belyanskaya. Saint Petersburg: Institute for the Rule of Law, European University at Saint Petersburg. *(in Russian)*
 
-More commissioned research, not listed here as standalone publications, appears on the [Policy & Data](policy.qmd) page.
+More commissioned research, not listed here as standalone publications, appears on the [Policy](policy.qmd) page.
+
+## Data & code
+
+**Russian Crime Victimization Survey (RCVS).** Three waves (2018, 2021, 2024), 42,572 pooled respondents, a 3,456-person longitudinal panel, and a pooled cross-sectional dataset released openly on SSRN. I managed wave 2 end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only *repeated* nationwide victimization survey in Russia.
+
+**researchdata.kz.** A data hub for social scientists working on Kazakhstan, launched June 2026 through Kazakhstan Sociology Lab. Two datasets are deposited under my authorship:
+
+- Serebrennikov, D. Spatial Data on Socio-Economic Characteristics in Almaty. researchdata.kz, 2026. — [researchdata.kz/data/218](https://researchdata.kz/data/218)
+- Serebrennikov, D., Kalkanbay, S. Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026. researchdata.kz, 2026. — [researchdata.kz/data/162](https://researchdata.kz/data/162)
+
+**Code.** Replication data and code for the *Russian Politics* article, "Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment" — [github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo](https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo).

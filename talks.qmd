@@ -1,8 +1,9 @@
 ---
 title: "Talks & Events"
-description: "Conference presentations, and schools, keynotes and events organised or co-organised."
+description: "Conference presentations, schools and keynotes, and selected media."
 toc: true
 toc-location: left
+toc-title: "Talks & Events"
 ---
 
 ## Conference presentations
@@ -19,14 +20,25 @@ toc-location: left
 | Oct 2021 | Legal Diversity and Regional Encounters | Plural Security: Using Urban Security Infrastructure in Russian Small Cities | University of Helsinki *(online)* |
 | Oct 2021 | RC21 | Who Secures This Corner? Spatial Analysis of Street CCTV Location as a Tool for Understanding the Splintering of Moscow | Rotterdam, the Netherlands *(online)* |
 
-: No conference presentations in 2018–2020 or in 2023.
-
 ## Schools, keynotes and organising
 
-**AIM-CC 2026 — "AI & Methods in Computational Communication"** · 8–16 August 2026, Astana. Young-scholar conference and research school co-organised by Kazakhstan Sociology Lab, Nazarbayev University and the International Communication Association, funded by Kazakhstan's Ministry of Science and Higher Education, with seven international instructors. *Co-organiser.*
+[AIM-CC 2026](https://sociologylab.kz/aim-cc26) — "AI & Methods in Computational Communication" · 8–16 August 2026, Astana. Young-scholar conference and research school co-organised by Kazakhstan Sociology Lab, Nazarbayev University and the International Communication Association, funded by Kazakhstan's Ministry of Science and Higher Education, with seven international instructors. *Co-organiser.*
 
-**International Winter School, "Research Practice in Sociology and Social Work for Quality Education and the Promotion of the SDGs in Kazakhstan"** · 17–18 January 2026, Al-Farabi Kazakh National University, Almaty. *Keynote speaker*, problem-lecture on the crisis of the contemporary social sciences.
+**International Winter School, "Research Practice in Sociology and Social Work for Quality Education and the Promotion of the SDGs in Kazakhstan"** · 17–18 January 2026, Al-Farabi Kazakh National University, Almaty. *Keynote speaker*, "Когнитивный поворот в социальных исследованиях" *(The Cognitive Turn in Social Research)*.
 
-**"Days of the Institute for the Rule of Law in Yerevan"** · 14–16 March 2024. *Lecturer*, "New Surveillance, Old Challenges."
+**"Days of the Institute for the Rule of Law in Yerevan"** · 14–16 March 2024. *Lecturer*, "New Surveillance, Old Challenges: Цифровизация работы следствия в России."
 
 **EUSP R-meetup group** · 2020–2022. *Organiser.*
+
+**President, University Student Council, European University at Saint Petersburg** · 2018–2019.
+
+## Selected media
+
+- [RBC](https://www.rbc.ru/spb_sz/12/09/2023/650037e99a79475b64051a1e), Sep 2023 — Why Russia is building a unified biometric system
+- [If Being Precise](https://tochno.st/materials/za-poslednie-tri-goda-prestupnost-v-rossii-mogla-vyrasti-na-40-no-popala-v-seruyu-zonu-kriminalnoy-statistiki-obyasnyaem-chto-eto-znachit) *(Esli byt' tochnym)*, Jul 2022 — Crime in Russia may have risen 40% over three years, and fell into the blind zone of criminal statistics
+- [If Being Precise](https://tochno.st/materials/tolko-4-postradavshikh-ot-prestupleniy-v-rossii-poluchayut-khot-kakuyu-to-kompensatsiyu-za-ushcherb-rasskazyvaem-chto-proiskhodit-s-zhertvami-na-kazhdom-etape), Jul 2022 — Only 4% of crime victims in Russia receive any compensation for damages
+- [N + 1](https://nplus1.ru/material/2021/09/16/predictive-policing), Sep 2021 — Predict, She Wrote: how far crime prediction systems have come, and why they are criticised
+- [Forbes](https://www.forbes.ru/obshchestvo/430891-oshibka-nablyudatelya-pochemu-umnye-kamery-ne-predotvratyat-rezonansnye), Jun 2021 — Watcher's error: why smart cameras will not prevent high-profile crimes
+- [Vedomosti](https://www.vedomosti.ru/opinion/articles/2020/04/29/829339-videonablyudenie), Extra Jus, Apr/May 2020 — Mass video surveillance: technological and bureaucratic problems
+- [Vedomosti](https://openpolice.ru/news/kirill-titaev-dmitrij-serebrennikov-vedomosti-extra-jus-pochemu-policii-ne-v-radost-narodnye-pomoshniki-i-inspektora/), Extra Jus, Apr 2019 — Why the police are not glad of citizen assistants and inspectors *(with K. Titaev)*
+- [Open Police](https://openpolice.ru/news/ekspert-dmitrij-serebrennikov-kak-i-zachem-gosudarstvo-nablyudaet-za-grazhdanami-v-obshestvennom-prostranstve/), Nov 2018 — How and why the state watches citizens in public space *(expert commentary)*

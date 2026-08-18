@@ -18,7 +18,7 @@ website:
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Policy & Data"
+      - text: "Policy"
         href: policy.qmd
       - text: "Teaching"
         href: teaching.qmd

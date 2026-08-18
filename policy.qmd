@@ -1,22 +1,12 @@
 ---
-title: "Policy & Data"
-description: "Commissioned research for government bodies, international organisations and universities, and the survey infrastructure behind it."
+title: "Policy"
+description: "Commissioned research for government bodies, international organisations and universities."
 toc: true
 toc-location: left
+toc-title: "Policy"
 ---
 
-Fifteen commissioned research projects for Kazakhstani government bodies, an international development bank and two universities. I have edited roughly twenty policy papers at Kazakhstan Sociology Lab and MIND, and managed the second wave of the Russian Crime Victimization Survey.
-
-## Data & code
-
-**Russian Crime Victimization Survey (RCVS).** Three waves (2018, 2021, 2024), 42,572 pooled respondents, a 3,456-person longitudinal panel, and a pooled cross-sectional dataset released openly on SSRN. I managed wave 2 end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only *repeated* nationwide victimization survey in Russia.
-
-**researchdata.kz.** A data hub for social scientists working on Kazakhstan, launched June 2026 through Kazakhstan Sociology Lab. Two datasets are deposited under my authorship:
-
-- Serebrennikov, D. **Spatial Data on Socio-Economic Characteristics in Almaty.** researchdata.kz, 2026. — [researchdata.kz/data/218](https://researchdata.kz/data/218)
-- Serebrennikov, D., Kalkanbay, S. **Register of Renamings of Administrative-Territorial Units and Constituent Parts of Settlements in the Republic of Kazakhstan, 1990–2026.** researchdata.kz, 2026. — [researchdata.kz/data/162](https://researchdata.kz/data/162)
-
-**Code.** Replication data and code for the *Russian Politics* article, "Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment" — [github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo](https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo).
+Fifteen commissioned research projects for Kazakhstani government bodies, an international development bank and two universities. I have edited roughly twenty policy papers at Kazakhstan Sociology Lab and MIND, and managed the second wave of the Russian Crime Victimization Survey. Datasets and code are on the [Publications](publications.qmd#data-code) page.
 
 <style>
 .policy-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1em; margin: 1.5em 0; }
@@ -24,6 +14,22 @@ Fifteen commissioned research projects for Kazakhstani government bodies, an int
 .policy-grid .card .card-role { font-size: 0.85em; opacity: 0.75; margin-top: 0.3em; }
 .policy-grid .card .card-client { font-family: var(--bs-font-sans-serif, sans-serif); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; }
 </style>
+
+## 2026
+
+::: {.policy-grid}
+
+<div class="card">
+<div class="card-client">MIND Analytical Reports, Maqsut Narikbayev University</div>
+
+**Functional Communication in the Unified Kazakhstan Complaint Service: Text Analysis**
+
+With N. Yergalieva, A. Nurgazin and S. Kalkanbay.
+
+<div class="card-role">2026</div>
+</div>
+
+:::
 
 ## 2025
 
@@ -98,7 +104,7 @@ Embedding-based topic similarity for a national appeals system; delivered as a d
 
 **Inspection and Supervision in Kazakhstan, 2023: The End of the Moratorium**
 
-<div class="card-role">Analyst · 2024</div>
+<div class="card-role">Analyst · 2024 · [report](https://mind.mnu.kz/ru/reports/kontrol-i-nadzor-v-kazahstane-2023-g-konecz-moratoriya/)</div>
 </div>
 
 <div class="card">
