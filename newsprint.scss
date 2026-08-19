@@ -216,6 +216,15 @@ header:empty { display: none; }
   }
 }
 
+// About has no title block (unique body.slimcontent class, from its own
+// grid override) — nothing for the TOC to align under, so drop the offset
+// and let it sit level with the margin column and body text instead.
+// Higher specificity than #TOC above so it wins regardless of source order.
+body.slimcontent #TOC,
+body.slimcontent .sidebar nav[role="doc-toc"] {
+  margin-top: 0;
+}
+
 // ############################################################################
 // CONTENT ELEMENTS
 // ############################################################################
@@ -263,15 +272,17 @@ code:not(.sourceCode) {
   margin-bottom: 0.5rem;
 }
 
-// Margin column (contact block on About). It starts a full paragraph-gap
-// below the title rule while the body text right next to it starts flush —
-// pull it up to sit on the same line as the rule under the page title.
-// Only above Quarto's own md breakpoint (768px): below it the column
-// drops into normal document flow after the body text, where a negative
-// margin would pull it up into that text instead.
+// Margin column (contact block on About). Its box top already matches the
+// body text's box top; what's left is a font-metric gap — .8rem/1.55
+// carries more internal leading above the cap-height than the tight mono
+// keyword line next to it, so the "Positions" glyphs still sit ~7px lower
+// than the keywords' ink. Nudge up to match ink-to-ink, not box-to-box —
+// only above the md breakpoint, where this is a floated side column: below
+// it, the column drops into normal flow after the body text, where the
+// same nudge pulls it up into that text instead.
 .column-margin {
   @media (min-width: 768px) {
-    margin-top: -1.05rem;
+    margin-top: -7px;
   }
   font-family: $font-family-text;
   font-size: 0.8rem;

@@ -4,6 +4,7 @@ description: "Empirical legal studies · Sociology of culture · Criminology · 
 toc: true
 toc-location: left
 toc-title: "About"
+include-in-header: _includes/hide-title.html
 format:
   html:
     grid:
