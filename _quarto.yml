@@ -6,7 +6,7 @@ project:
 website:
   title: "Dmitrii Serebrennikov"
   site-url: https://serebrennikov-dmtr.github.io
-  description: "Sociologist working in empirical legal studies, the sociology of culture and criminology, with computational and survey methods."
+  description: "Empirical legal studies · Sociology of culture · Criminology · Computational social science"
   favicon: assets/favicon.ico
   open-graph:
     site-name: "Dmitrii Serebrennikov"

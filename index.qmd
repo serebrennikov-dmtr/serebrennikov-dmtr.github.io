@@ -1,6 +1,6 @@
 ---
 title: "Dmitrii Serebrennikov"
-description: "Sociologist working in empirical legal studies, the sociology of culture and criminology, with computational and survey methods."
+description: "Empirical legal studies · Sociology of culture · Criminology · Computational social science"
 toc: true
 toc-location: left
 toc-title: "About"

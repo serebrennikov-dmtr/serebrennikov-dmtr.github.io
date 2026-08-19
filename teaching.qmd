@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-description: "Courses, workshops and the Sociology School computational social science programme at Kazakhstan Sociology Lab."
+description: "Empirical legal studies · Sociology of culture · Criminology · Computational social science"
 toc: true
 toc-location: left
 toc-title: "Teaching"

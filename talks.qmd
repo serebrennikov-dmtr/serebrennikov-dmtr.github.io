@@ -1,6 +1,6 @@
 ---
 title: "Talks & Events"
-description: "Conference presentations, summer schools and media coverage."
+description: "Empirical legal studies · Sociology of culture · Criminology · Computational social science"
 toc: true
 toc-location: left
 toc-title: "Talks & Events"
