@@ -176,12 +176,14 @@ blockquote {
   margin-bottom: 2rem;
 }
 
-.quarto-title .description {
-  font-family: $font-family-monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.03em;
-  color: $muted;
-  text-transform: uppercase;
+// Quarto renders front-matter `description:` as its own div in the title
+// header — a sibling of .quarto-title, not nested inside it, so this never
+// actually matched. It exists purely to feed og:description / meta
+// description; showing it in the body duplicated the hand-styled
+// .site-keywords line on About and would repeat the same keyword string
+// under every other page's title too, so it stays out of the page itself.
+#title-block-header .description {
+  display: none;
 }
 
 header:empty { display: none; }
