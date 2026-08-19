@@ -6,9 +6,15 @@ project:
 website:
   title: "Dmitrii Serebrennikov"
   site-url: https://serebrennikov-dmtr.github.io
-  description: "Computational social scientist working on legal culture and cognition."
+  description: "Sociologist working in empirical legal studies, the sociology of culture and criminology, with computational and survey methods."
+  favicon: assets/favicon.ico
   open-graph:
     site-name: "Dmitrii Serebrennikov"
+    image: assets/favicon/og-image.png
+    image-width: 1200
+    image-height: 630
+  twitter-card:
+    image: assets/favicon/og-image.png
   search: true
   navbar:
     title: "Dmitrii Serebrennikov"
@@ -41,7 +47,9 @@ website:
 format:
   html:
     theme: newsprint.scss
-    include-in-header: _includes/fonts.html
+    include-in-header:
+      - _includes/fonts.html
+      - _includes/favicon.html
     grid:
       body-width: 900px
       margin-width: 260px

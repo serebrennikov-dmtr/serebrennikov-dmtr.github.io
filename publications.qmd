@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+description: "Peer-reviewed articles, preprints, policy reports and datasets on legal culture, criminology and computational social science."
 toc: true
 toc-location: left
 toc-title: "Publications"

@@ -1,5 +1,6 @@
 ---
 title: "Talks & Events"
+description: "Conference presentations, summer schools and media coverage."
 toc: true
 toc-location: left
 toc-title: "Talks & Events"

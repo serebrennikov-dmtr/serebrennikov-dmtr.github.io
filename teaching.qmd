@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+description: "Courses, workshops and the Sociology School computational social science programme at Kazakhstan Sociology Lab."
 toc: true
 toc-location: left
 toc-title: "Teaching"
