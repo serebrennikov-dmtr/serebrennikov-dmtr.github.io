@@ -272,18 +272,9 @@ code:not(.sourceCode) {
   margin-bottom: 0.5rem;
 }
 
-// Margin column (contact block on About). Its box top already matches the
-// body text's box top; what's left is a font-metric gap — .8rem/1.55
-// carries more internal leading above the cap-height than the tight mono
-// keyword line next to it, so the "Positions" glyphs still sit ~7px lower
-// than the keywords' ink. Nudge up to match ink-to-ink, not box-to-box —
-// only above the md breakpoint, where this is a floated side column: below
-// it, the column drops into normal flow after the body text, where the
-// same nudge pulls it up into that text instead.
+// Margin column (contact block on About). Sits at its natural top, flush
+// with the body text next to it.
 .column-margin {
-  @media (min-width: 768px) {
-    margin-top: -7px;
-  }
   font-family: $font-family-text;
   font-size: 0.8rem;
   line-height: 1.55;
