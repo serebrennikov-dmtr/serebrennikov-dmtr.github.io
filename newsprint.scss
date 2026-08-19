@@ -168,9 +168,15 @@ blockquote {
   a { color: $muted; }
 }
 
-// Page title block
+// Page title block. padding-top used to be 3.5vh — viewport-height-relative,
+// so its actual pixel value (and therefore where the rule underneath it
+// lands) shifted with the browser window's height. The TOC's own offset
+// below is a fixed px value calibrated to match this block's height; vh
+// made that match only hold at one specific window height. Fixed unit here
+// makes the title block's height — and the offset that targets it —
+// independent of viewport height.
 .quarto-title-block {
-  padding-top: 3.5vh;
+  padding-top: 2rem;
   padding-bottom: 1.2em;
   border-bottom: 1px solid $ink;
   margin-bottom: 2rem;
@@ -190,9 +196,11 @@ header:empty { display: none; }
 
 // Left-hand table of contents. Quarto starts it near the navbar, well above
 // where the title's own rule sits; push it down so the TOC's separator
-// lines up with that rule instead of floating above it.
+// lines up with that rule instead of floating above it. Both this and the
+// title block above are fixed units now (no vh), so this offset holds at
+// any window height — verified equal at 720px and 900px viewport height.
 #TOC, .sidebar nav[role="doc-toc"] {
-  margin-top: 68px;
+  margin-top: 70px;
   font-size: 0.85rem;
 
   .nav-link {
@@ -272,9 +280,19 @@ code:not(.sourceCode) {
   margin-bottom: 0.5rem;
 }
 
-// Margin column (contact block on About). Sits at its natural top, flush
-// with the body text next to it.
+// Margin column (contact block on About). Its box top matches the body
+// text's box top exactly (both 0 margin/padding, verified via computed
+// style) — what's left is pure line-height/font-metrics: 0.8rem/1.55 here
+// vs the tighter mono keyword line next to it carries ~7px more half-
+// leading above the cap-height, so "Positions" still sits visibly lower
+// glyph-to-glyph. Nudge cancels that — only above the md breakpoint, where
+// this is a floated side column: below it, the column drops into normal
+// flow after the body text, where the same nudge would pull it up into
+// that text instead.
 .column-margin {
+  @media (min-width: 768px) {
+    margin-top: -7px;
+  }
   font-family: $font-family-text;
   font-size: 0.8rem;
   line-height: 1.55;
