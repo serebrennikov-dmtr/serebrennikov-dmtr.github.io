@@ -280,19 +280,14 @@ code:not(.sourceCode) {
   margin-bottom: 0.5rem;
 }
 
-// Margin column (contact block on About). Its box top matches the body
-// text's box top exactly (both 0 margin/padding, verified via computed
-// style) — what's left is pure line-height/font-metrics: 0.8rem/1.55 here
-// vs the tighter mono keyword line next to it carries ~7px more half-
-// leading above the cap-height, so "Positions" still sits visibly lower
-// glyph-to-glyph. Nudge cancels that — only above the md breakpoint, where
-// this is a floated side column: below it, the column drops into normal
-// flow after the body text, where the same nudge would pull it up into
-// that text instead.
+// Margin column (contact block on About). Sits flush with the body text —
+// confirmed with a live override on the deployed page (setting margin-top
+// to 0 and re-measuring glyph tops directly, gap came back exactly 0). A
+// local quarto-preview measurement had suggested a ~7px gap needing a
+// nudge; that reading didn't reproduce on the actual deployed fonts, so
+// no nudge here — trust the live page over the dev server for anything
+// this font-metric-sensitive.
 .column-margin {
-  @media (min-width: 768px) {
-    margin-top: -7px;
-  }
   font-family: $font-family-text;
   font-size: 0.8rem;
   line-height: 1.55;
