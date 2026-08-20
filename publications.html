@@ -80,20 +80,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    const listingTargetEl = window.document.querySelector('#listing-articles-en .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-publisher','listing-thumbnail','listing-thumbnailAlt','listing-links','listing-note','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-publisher','listing-thumbnail','listing-thumbnailAlt','listing-links','listing-detail',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-publisher","listing-thumbnail","listing-thumbnailAlt","listing-links","listing-note","listing-detail"],
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-publisher","listing-thumbnail","listing-thumbnailAlt","listing-links","listing-detail"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+    window['quarto-listings']['listing-articles-en'] = new List('listing-articles-en', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles-ru .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-note','listing-thumbnail','listing-thumbnailAlt','listing-detail','listing-links',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-note","listing-thumbnail","listing-thumbnailAlt","listing-detail","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles-ru'] = new List('listing-articles-ru', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -312,7 +340,8 @@ window.Quarto = {
     <h2 id="toc-title">Publications</h2>
    
   <ul>
-  <li><a href="#peer-reviewed-articles" id="toc-peer-reviewed-articles" class="nav-link active" data-scroll-target="#peer-reviewed-articles">Peer-reviewed articles</a></li>
+  <li><a href="#peer-reviewed-articles-english" id="toc-peer-reviewed-articles-english" class="nav-link active" data-scroll-target="#peer-reviewed-articles-english">Peer-reviewed articles (English)</a></li>
+  <li><a href="#peer-reviewed-articles-russian" id="toc-peer-reviewed-articles-russian" class="nav-link" data-scroll-target="#peer-reviewed-articles-russian">Peer-reviewed articles (Russian)</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
   <li><a href="#selected-policy-reports" id="toc-selected-policy-reports" class="nav-link" data-scroll-target="#selected-policy-reports">Selected policy reports</a></li>
   <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
@@ -350,9 +379,9 @@ window.Quarto = {
 </header>
 
 
-<section id="peer-reviewed-articles" class="level2">
-<h2 class="anchored" data-anchor-id="peer-reviewed-articles">Peer-reviewed articles</h2>
-<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
+<section id="peer-reviewed-articles-english" class="level2">
+<h2 class="anchored" data-anchor-id="peer-reviewed-articles-english">Peer-reviewed articles (English)</h2>
+<div id="listing-articles-en" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-entry has-thumb">
 <div class="pub-body">
 <div class="pub-title">
@@ -372,6 +401,50 @@ Surveillance as Governance: Policing Effectiveness and Political Control in the 
 <img src="assets/figures/pubs/surveillance-as-governance.png" alt="Year-on-year growth in Moscow CCTV cameras, 2015–2022, split by courtyards, entrance doors and public spaces">
 </div>
 </div>
+<div class="pub-entry has-thumb">
+<div class="pub-body">
+<div class="pub-title">
+What’s Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Kalkanbay, S.
+</div>
+<div class="pub-meta">
+<em>Journal of Criminal Justice</em> · 102, 102551 · 2026
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.1016/j.jcrimjus.2025.102551"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a><button class="pub-cite" type="button" data-apa="Serebrennikov, D., &amp; Kalkanbay, S. (2026). What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan. Journal of Criminal Justice, 102, 102551. https://doi.org/10.1016/j.jcrimjus.2025.102551" aria-label="Copy the APA citation for this item"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>cite</button>
+</div>
+</div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/near-repeat-almaty.png" alt="Map of Almaty showing crime density as a grey gradient over outlined urban clusters: detached housing, apartment blocks, parks and industrial areas">
+</div>
+</div>
+<div class="pub-entry has-thumb">
+<div class="pub-body">
+<div class="pub-title">
+A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement
+</div>
+<div class="pub-authors">
+<strong>Serebrennikov, D.</strong>, Skougarevskiy, D.
+</div>
+<div class="pub-meta">
+<em>Journal of Computational Social Science</em> · 2024
+</div>
+<div class="pub-links">
+<a href="https://doi.org/10.1007/s42001-024-00323-1"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a><button class="pub-cite" type="button" data-apa="Serebrennikov, D., &amp; Skougarevskiy, D. (2024). A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement. Journal of Computational Social Science. https://doi.org/10.1007/s42001-024-00323-1" aria-label="Copy the APA citation for this item"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>cite</button>
+</div>
+</div>
+<div class="pub-thumb">
+<img src="assets/figures/pubs/tale-of-four-cities.png" alt="Dot plot of mean SHAP values for Brussels, ranking environmental features such as bus stops, parking and buildings by their effect on camera placement">
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="peer-reviewed-articles-russian" class="level2">
+<h2 class="anchored" data-anchor-id="peer-reviewed-articles-russian">Peer-reviewed articles (Russian)</h2>
+<div id="listing-articles-ru" class="quarto-listing quarto-listing-container-custom">
 <div class="pub-entry">
 <div class="pub-body">
 <div class="pub-title">
@@ -415,44 +488,6 @@ cite
 </div>
 <div class="pub-thumb">
 <img src="assets/figures/pubs/hard-road-victimization.png" alt="Flow diagram of the lifestyle-exposure model of victimization after Meier and Miethe, tracing demographic characteristics through role expectations, structural constraints, adaptations and lifestyle to risk exposure and personal victimization">
-</div>
-</div>
-<div class="pub-entry has-thumb">
-<div class="pub-body">
-<div class="pub-title">
-What’s Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan
-</div>
-<div class="pub-authors">
-<strong>Serebrennikov, D.</strong>, Kalkanbay, S.
-</div>
-<div class="pub-meta">
-<em>Journal of Criminal Justice</em> · 102, 102551 · 2026
-</div>
-<div class="pub-links">
-<a href="https://doi.org/10.1016/j.jcrimjus.2025.102551"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a><button class="pub-cite" type="button" data-apa="Serebrennikov, D., &amp; Kalkanbay, S. (2026). What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan. Journal of Criminal Justice, 102, 102551. https://doi.org/10.1016/j.jcrimjus.2025.102551" aria-label="Copy the APA citation for this item"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>cite</button>
-</div>
-</div>
-<div class="pub-thumb">
-<img src="assets/figures/pubs/near-repeat-almaty.png" alt="Map of Almaty showing crime density as a grey gradient over outlined urban clusters: detached housing, apartment blocks, parks and industrial areas">
-</div>
-</div>
-<div class="pub-entry has-thumb">
-<div class="pub-body">
-<div class="pub-title">
-A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement
-</div>
-<div class="pub-authors">
-<strong>Serebrennikov, D.</strong>, Skougarevskiy, D.
-</div>
-<div class="pub-meta">
-<em>Journal of Computational Social Science</em> · 2024
-</div>
-<div class="pub-links">
-<a href="https://doi.org/10.1007/s42001-024-00323-1"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"></path><path d="M9 9h1M9 13h6M9 17h6"></path></svg>paper</a><button class="pub-cite" type="button" data-apa="Serebrennikov, D., &amp; Skougarevskiy, D. (2024). A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement. Journal of Computational Social Science. https://doi.org/10.1007/s42001-024-00323-1" aria-label="Copy the APA citation for this item"><svg width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>cite</button>
-</div>
-</div>
-<div class="pub-thumb">
-<img src="assets/figures/pubs/tale-of-four-cities.png" alt="Dot plot of mean SHAP values for Brussels, ranking environmental features such as bus stops, parking and buildings by their effect on camera placement">
 </div>
 </div>
 <div class="pub-entry">
