@@ -6,8 +6,11 @@ toc-location: left
 toc-title: "Publications"
 include-after-body: _includes/copy-apa.html
 listing:
-  - id: articles
-    contents: data/articles.yml
+  - id: articles-en
+    contents: data/articles-en.yml
+    template: ejs/publication.ejs
+  - id: articles-ru
+    contents: data/articles-ru.yml
     template: ejs/publication.ejs
   - id: preprints
     contents: data/preprints.yml
@@ -20,9 +23,14 @@ listing:
     template: ejs/publication.ejs
 ---
 
-## Peer-reviewed articles
+## Peer-reviewed articles (English)
 
-::: {#articles}
+::: {#articles-en}
+:::
+
+## Peer-reviewed articles (Russian)
+
+::: {#articles-ru}
 :::
 
 ## Preprints

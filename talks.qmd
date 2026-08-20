@@ -13,6 +13,7 @@ toc-title: "Talks & Events"
 | Jul 2026 | Summer School of the Institute for the Rule of Law 2026 | Silicon Sampling: Everything You (Didn't) Want to Know but Were Afraid to Ask; New Respondents, New Design | — |
 | Jun 2025 | ESCAS | What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty | Tashkent |
 | Sep 2024 | DKU International Conference, Central Asia's Transformations | What Kind of Reasons Do People Call the Police? A Study of 200,000 Emergency Calls in a Central Asian Country | Almaty |
+| Sep 2024 | Eurocrim 2024, 24th Annual Conference of the European Society of Criminology | Near Repeat Victimization Theory in a Post-Soviet City: Insights from Theft and Violent Crime Patterns in Almaty, Kazakhstan | Bucharest, Romania |
 | 2024 | Vectors | Classifying the Safe: Surveillance Cameras as Artifacts of Shared Schemas among District Officials | Moscow School of Social and Economic Sciences *(online)* |
 | Jul 2024 | 8th Global Meeting on Law & Society | Big Data Surveillance à la Russe: Interpreting Changes in the Moscow Investigation Process after Digitalisation | Denver, USA |
 | Jul 2022 | 7th Global Meeting on Law & Society | Fear of Crime in Russia: Evidence from the RCVS 2021 | Lisbon *(online)* |
@@ -27,9 +28,12 @@ toc-title: "Talks & Events"
 | School | Host | Role | Date |
 |---|---|---|---|
 | [**AIM-CC 2026** — AI & Methods in Computational Communication](https://sociologylab.kz/aim-cc26) [A young-scholar conference and research school funded by Kazakhstan's Ministry of Science and Higher Education. Among the invited speakers were Professor Taha Yasseri of Trinity College Dublin (Ireland), Professor Alexey Bessudnov of the University of Exeter (UK), Professor Miriam Schirmer of the University of Konstanz (Germany) and Başak Taraktaş of Boğaziçi University, along with other leading researchers in the social and computational sciences.]{.table-note} | Kazakhstan Sociology Lab × Nazarbayev University × International Communication Association, Astana | Co-organiser | 2026 |
+| [**School of Empirical Legal Studies**](https://empravo.ru/) [An interdisciplinary winter school on empirical research in law, held annually since the mid-2010s. Under competitive selection, participants — sociologists, jurists, economists and other social scientists — carry a research project from question to draft article over five days.]{.table-note} | Institute for the Rule of Law, European University at Saint Petersburg | Co-organiser and mentor | 2022–2026 |
 
 ## Selected media
 
+- [Kursiv](https://kz.kursiv.media/2024-05-30/print1036-businesschecks/), May 2024 — Which Kazakhstani Businesses Are Inspected Most Often
+- [MNU Academy](https://www.youtube.com/watch?v=DEgB-B_PFjE), 2024 — The Observer's Logic: Studying Security Regimes Through European City Infrastructures *(public lecture)*
 - [RBC](https://www.rbc.ru/spb_sz/12/09/2023/650037e99a79475b64051a1e), Sep 2023 — Why Russia is building a unified biometric system
 - [If Being Precise](https://tochno.st/materials/za-poslednie-tri-goda-prestupnost-v-rossii-mogla-vyrasti-na-40-no-popala-v-seruyu-zonu-kriminalnoy-statistiki-obyasnyaem-chto-eto-znachit) *(Esli byt' tochnym)*, Jul 2022 — Crime in Russia may have risen 40% over three years, and fell into the blind zone of criminal statistics
 - [If Being Precise](https://tochno.st/materials/tolko-4-postradavshikh-ot-prestupleniy-v-rossii-poluchayut-khot-kakuyu-to-kompensatsiyu-za-ushcherb-rasskazyvaem-chto-proiskhodit-s-zhertvami-na-kazhdom-etape), Jul 2022 — Only 4% of crime victims in Russia receive any compensation for damages

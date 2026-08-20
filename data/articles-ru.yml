@@ -1,15 +1,3 @@
-- title: "Surveillance as Governance: Policing Effectiveness and Political Control in the Moscow AI Experiment"
-  authors: "Serebrennikov, D., Minaeva, E., Ross, E."
-  year: "forthcoming 2026"
-  venue: "Russian Politics"
-  publisher: "Brill"
-  thumbnail: assets/figures/pubs/surveillance-as-governance.png
-  thumbnailAlt: "Year-on-year growth in Moscow CCTV cameras, 2015–2022, split by courtyards, entrance doors and public spaces"
-  links:
-    - label: code
-      icon: code
-      href: "https://github.com/serebrennikov-dmtr/Surveillance-as-Governance.Paper-Repo"
-
 - title: "Cognitive Sociology: Revisiting the Role of Cognition in Sociological Explanation"
   authors: "Serebrennikov, D., Varshaver, E."
   year: "forthcoming 2026"
@@ -23,29 +11,6 @@
   note: "in Russian"
   thumbnail: assets/figures/pubs/hard-road-victimization.png
   thumbnailAlt: "Flow diagram of the lifestyle-exposure model of victimization after Meier and Miethe, tracing demographic characteristics through role expectations, structural constraints, adaptations and lifestyle to risk exposure and personal victimization"
-
-- title: "What's Sauce for the Goose is Sauce for the Gander? Near-repeat Victimization Across Different Urban Morphologies: Evidence from Almaty, Kazakhstan"
-  authors: "Serebrennikov, D., Kalkanbay, S."
-  year: "2026"
-  venue: "Journal of Criminal Justice"
-  detail: "102, 102551"
-  thumbnail: assets/figures/pubs/near-repeat-almaty.png
-  thumbnailAlt: "Map of Almaty showing crime density as a grey gradient over outlined urban clusters: detached housing, apartment blocks, parks and industrial areas"
-  links:
-    - label: paper
-      icon: paper
-      href: "https://doi.org/10.1016/j.jcrimjus.2025.102551"
-
-- title: "A Tale of Four Cities: Exploring Security Through Environmental Characteristics of CCTV Equipment Placement"
-  authors: "Serebrennikov, D., Skougarevskiy, D."
-  year: "2024"
-  venue: "Journal of Computational Social Science"
-  thumbnail: assets/figures/pubs/tale-of-four-cities.png
-  thumbnailAlt: "Dot plot of mean SHAP values for Brussels, ranking environmental features such as bus stops, parking and buildings by their effect on camera placement"
-  links:
-    - label: paper
-      icon: paper
-      href: "https://doi.org/10.1007/s42001-024-00323-1"
 
 - title: "From Call to Emergency Card: Seeking \"112\" Operator Discretion"
   authors: "Serebrennikov, D."

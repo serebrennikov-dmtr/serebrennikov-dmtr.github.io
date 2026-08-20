@@ -31,6 +31,7 @@ The programme is blended online and offline and runs across four modules. Three 
 | | School | Host | Role | Date |
 |---|---|---|---|---|
 | [CSS]{.course-icon} | [**AIM-CC 2026** — AI & Methods in Computational Communication](https://sociologylab.kz/aim-cc26) [A young-scholar conference and research school funded by Kazakhstan's Ministry of Science and Higher Education. Among the invited speakers were Professor Taha Yasseri of Trinity College Dublin (Ireland), Professor Alexey Bessudnov of the University of Exeter (UK), Professor Miriam Schirmer of the University of Konstanz (Germany) and Başak Taraktaş of Boğaziçi University, along with other leading researchers in the social and computational sciences.]{.table-note} | Kazakhstan Sociology Lab × Nazarbayev University × International Communication Association, Astana | Co-organiser | 2026 |
+| [methods]{.course-icon} | [**School of Empirical Legal Studies**](https://empravo.ru/) [An interdisciplinary winter school on empirical research in law, held annually since the mid-2010s. Under competitive selection, participants — sociologists, jurists, economists and other social scientists — carry a research project from question to draft article over five days.]{.table-note} | Institute for the Rule of Law, European University at Saint Petersburg | Co-organiser and mentor | 2022–2026 |
 
 ## Workshops and short courses
 
