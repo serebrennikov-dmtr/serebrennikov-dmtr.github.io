@@ -45,7 +45,7 @@ listing:
 
 ## Datasets
 
-I managed wave 2 of the Russian Crime Victimization Survey end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only *repeated* nationwide victimization survey in Russia. The two Kazakhstani datasets are deposited on [researchdata.kz](https://researchdata.kz), a data hub for social scientists working on the country, launched through Kazakhstan Sociology Lab in June 2026.
+I managed wave 2 of the Russian Crime Victimization Survey end to end — questionnaire design, RDD sampling and stratification, CATI fieldwork, data curation — and served on the team for wave 3. It remains the only *repeated* nationwide victimization survey in Russia. Besides, the two Kazakhstani datasets are deposited on [researchdata.kz](https://researchdata.kz), a data hub for social scientists working on the country, launched through Kazakhstan Sociology Lab in June 2026.
 
 ::: {#datasets}
 :::
