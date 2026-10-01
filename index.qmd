@@ -15,7 +15,7 @@ format:
 
 ::: {.content-block}
 
-<p class="site-keywords">Empirical legal studies · Sociology of culture · Criminology · Computational social science</p>
+<p class="site-keywords">Culture and cognition · Law, classification and institutions · Computational social science</p>
 
 :::
 
